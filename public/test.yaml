@@ -1,0 +1,4602 @@
+edge_stats:
+  count_by_edge_label:
+    biolink:acts_on_population_of:
+      count: 84
+      provided_by:
+        go-plus:
+          count: 84
+    biolink:adjacent_to:
+      count: 168
+      provided_by:
+        go-plus:
+          count: 168
+    biolink:anterior_to:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:anteriorly_connected_to:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:attaches_to:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:attaches_to_part_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:bearer_of:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:bounding_layer_of:
+      count: 151
+      provided_by:
+        go-plus:
+          count: 151
+    biolink:branching_part_of:
+      count: 49
+      provided_by:
+        go-plus:
+          count: 49
+    biolink:capable_of:
+      count: 580
+      provided_by:
+        go-plus:
+          count: 580
+    biolink:capable_of_part_of:
+      count: 361
+      provided_by:
+        go-plus:
+          count: 361
+    biolink:causally_upstream_of:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:channel_for:
+      count: 24
+      provided_by:
+        go-plus:
+          count: 24
+    biolink:channels_from:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:channels_into:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:coincident_with:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:composed_primarily_of:
+      count: 158
+      provided_by:
+        go-plus:
+          count: 158
+    biolink:conduit_for:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:confers_advantage_in:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:connected_to:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:connects:
+      count: 165
+      provided_by:
+        go-plus:
+          count: 165
+    biolink:contains:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:contains_process:
+      count: 18
+      provided_by:
+        go-plus:
+          count: 18
+    biolink:continuous_with:
+      count: 64
+      provided_by:
+        go-plus:
+          count: 64
+    biolink:contributes_to_morphology_of:
+      count: 403
+      provided_by:
+        go-plus:
+          count: 403
+    biolink:deep_to:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:derives_from:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:developmentally_induced_by:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:developmentally_replaces:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:develops_from:
+      count: 1018
+      provided_by:
+        go-plus:
+          count: 1018
+    biolink:develops_from_part_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:develops_in:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:directly_develops_from:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:directly_negatively_regulates:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:directly_positively_regulates:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:directly_regulates:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:disease_arises_from_feature:
+      count: 110
+      provided_by:
+        mondo:
+          count: 110
+    biolink:disease_arises_from_structure:
+      count: 113
+      provided_by:
+        mondo:
+          count: 113
+    biolink:disease_caused_by_disruption_of:
+      count: 277
+      provided_by:
+        mondo:
+          count: 277
+    biolink:disease_causes_dysfunction_of:
+      count: 7
+      provided_by:
+        mondo:
+          count: 7
+    biolink:disease_causes_feature:
+      count: 13
+      provided_by:
+        mondo:
+          count: 13
+    biolink:disease_disrupts:
+      count: 101
+      provided_by:
+        mondo:
+          count: 101
+    biolink:disease_has_basis_in_accumulation_of:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:disease_has_basis_in_development_of:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:disease_has_basis_in_dysfunction_of:
+      count: 4471
+      provided_by:
+        mondo:
+          count: 4471
+    biolink:disease_has_feature:
+      count: 1076
+      provided_by:
+        mondo:
+          count: 1076
+    biolink:disease_has_inflammation_site:
+      count: 164
+      provided_by:
+        mondo:
+          count: 164
+    biolink:disease_has_location:
+      count: 847
+      provided_by:
+        mondo:
+          count: 847
+    biolink:disease_has_major_feature:
+      count: 117
+      provided_by:
+        mondo:
+          count: 117
+    biolink:disease_responds_to:
+      count: 13
+      provided_by:
+        mondo:
+          count: 13
+    biolink:disease_shares_features_of:
+      count: 49
+      provided_by:
+        mondo:
+          count: 49
+    biolink:disease_triggers:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:distal_to:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:distally_connected_to:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:distalmost_part_of:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:dorsal_to:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:drains:
+      count: 48
+      provided_by:
+        go-plus:
+          count: 48
+    biolink:enables:
+      count: 746
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 746
+    biolink:ends:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:ends_during:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:ends_with:
+      count: 35
+      provided_by:
+        go-plus:
+          count: 35
+    biolink:existence_ends_during:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:existence_ends_during_or_before:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:existence_ends_with:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:existence_starts_and_ends_during:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:existence_starts_during:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:existence_starts_during_or_after:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:existence_starts_with:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:exports:
+      count: 87
+      provided_by:
+        go-plus:
+          count: 87
+    biolink:extends_fibers_into:
+      count: 101
+      provided_by:
+        go-plus:
+          count: 101
+    biolink:filtered_through:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:functionally_related_to:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:happens_during:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:has_boundary:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:has_component:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:has_cross_section:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:has_developmental_contribution_from:
+      count: 83
+      provided_by:
+        go-plus:
+          count: 83
+    biolink:has_end_location:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:has_fused_element:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:has_gene_product:
+      count: 17806
+      provided_by:
+        NCBI:
+          count: 17806
+    biolink:has_input:
+      count: 1512
+      provided_by:
+        go-plus:
+          count: 1512
+    biolink:has_intermediate:
+      count: 83
+      provided_by:
+        go-plus:
+          count: 83
+    biolink:has_member:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:has_modifier:
+      count: 1083
+      provided_by:
+        mondo:
+          count: 1083
+    biolink:has_muscle_antagonist:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:has_muscle_insertion:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:has_muscle_origin:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:has_onset:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:has_output:
+      count: 115
+      provided_by:
+        go-plus:
+          count: 115
+    biolink:has_part:
+      count: 1520
+      provided_by:
+        go-plus:
+          count: 1520
+    biolink:has_participant:
+      count: 106
+      provided_by:
+        go-plus:
+          count: 106
+    biolink:has_potential_to_develop_into:
+      count: 170
+      provided_by:
+        go-plus:
+          count: 170
+    biolink:has_potential_to_developmentally_contribute_to:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:has_primary_input:
+      count: 1041
+      provided_by:
+        go-plus:
+          count: 1041
+    biolink:has_primary_input_or_output:
+      count: 1310
+      provided_by:
+        go-plus:
+          count: 1310
+    biolink:has_primary_output:
+      count: 1197
+      provided_by:
+        go-plus:
+          count: 1197
+    biolink:has_quality:
+      count: 48
+      provided_by:
+        go-plus:
+          count: 48
+    biolink:has_role:
+      count: 10009
+      provided_by:
+        go-plus:
+          count: 10009
+    biolink:has_skeleton:
+      count: 48
+      provided_by:
+        go-plus:
+          count: 48
+    biolink:has_start_location:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:has_target_end_location:
+      count: 274
+      provided_by:
+        go-plus:
+          count: 274
+    biolink:has_target_start_location:
+      count: 102
+      provided_by:
+        go-plus:
+          count: 102
+    biolink:immediate_transformation_of:
+      count: 62
+      provided_by:
+        go-plus:
+          count: 62
+    biolink:immediately_causally_upstream_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:immediately_deep_to:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:immediately_preceded_by:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:immediately_precedes:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:immediately_superficial_to:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:imports:
+      count: 187
+      provided_by:
+        go-plus:
+          count: 187
+    biolink:in_anterior_side_of:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:in_deep_part_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:in_distal_side_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:in_dorsal_side_of:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:in_lateral_side_of:
+      count: 56
+      provided_by:
+        go-plus:
+          count: 56
+    biolink:in_left_side_of:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+    biolink:in_posterior_side_of:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:in_proximal_side_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:in_right_side_of:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:in_superficial_part_of:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:in_taxon:
+      count: 182
+      provided_by:
+        go-plus:
+          count: 181
+        mondo:
+          count: 1
+    biolink:in_ventral_side_of:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:indirectly_supplies:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:innervated_by:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:innervates:
+      count: 37
+      provided_by:
+        go-plus:
+          count: 37
+    biolink:interacts_with:
+      count: 11856223
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 7357
+        STRING:
+          count: 11759454
+        intact:
+          count: 873
+        pharmgkb:
+          count: 5744
+        ttd:
+          count: 82668
+        zhou_host_proteins:
+          count: 127
+    biolink:intersects_midsagittal_plane_of:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:inverseOf:
+      count: 40
+      provided_by:
+        go-plus:
+          count: 40
+    biolink:involved_in:
+      count: 727
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 727
+    biolink:layer_part_of:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:located_in:
+      count: 67
+      provided_by:
+        go-plus:
+          count: 67
+    biolink:location_of:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:lumen_of:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:luminal_space_of:
+      count: 66
+      provided_by:
+        go-plus:
+          count: 66
+    biolink:molecularly_interacts_with:
+      count: 13900
+      provided_by:
+        drug_central:
+          count: 13900
+    biolink:negatively_regulates:
+      count: 3097
+      provided_by:
+        go-plus:
+          count: 3097
+    biolink:occurs_in:
+      count: 415
+      provided_by:
+        go-plus:
+          count: 415
+    biolink:only_in_taxon:
+      count: 959
+      provided_by:
+        go-plus:
+          count: 959
+    biolink:output_of:
+      count: 69
+      provided_by:
+        go-plus:
+          count: 69
+    biolink:overlaps:
+      count: 42
+      provided_by:
+        go-plus:
+          count: 42
+    biolink:part_of:
+      count: 12999
+      provided_by:
+        go-plus:
+          count: 12364
+        sars_cov_2_gene_annot:
+          count: 635
+    biolink:part_of_progression_of_disease:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:participates_in:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:positively_regulates:
+      count: 3077
+      provided_by:
+        go-plus:
+          count: 3077
+    biolink:postaxialmost_part_of:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:posterior_to:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:posteriorly_connected_to:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:preaxialmost_part_of:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:preceded_by:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:precedes:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:predisposes_towards:
+      count: 146
+      provided_by:
+        mondo:
+          count: 146
+    biolink:process_has_causal_agent:
+      count: 63
+      provided_by:
+        go-plus:
+          count: 63
+    biolink:produced_by:
+      count: 34
+      provided_by:
+        go-plus:
+          count: 34
+    biolink:produces:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:protects:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:proximal_to:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:proximally_connected_to:
+      count: 35
+      provided_by:
+        go-plus:
+          count: 35
+    biolink:proximalmost_part_of:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:realized_in:
+      count: 18
+      provided_by:
+        mondo:
+          count: 18
+    biolink:realized_in_response_to:
+      count: 43
+      provided_by:
+        mondo:
+          count: 43
+    biolink:realized_in_response_to_stimulus:
+      count: 559
+      provided_by:
+        mondo:
+          count: 559
+    biolink:realizes:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:regulated_by:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:regulates:
+      count: 3620
+      provided_by:
+        go-plus:
+          count: 3620
+    biolink:regulates_levels_of:
+      count: 64
+      provided_by:
+        go-plus:
+          count: 64
+    biolink:related_to:
+      count: 9261548
+      provided_by:
+        SciBite-CORD-19:
+          count: 9257840
+        mondo:
+          count: 7
+        unknown:
+          count: 3701
+    biolink:results_in:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:results_in_acquisition_of_features_of:
+      count: 331
+      provided_by:
+        go-plus:
+          count: 331
+    biolink:results_in_assembly_of:
+      count: 316
+      provided_by:
+        go-plus:
+          count: 316
+    biolink:results_in_commitment_to:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:results_in_determination_of:
+      count: 25
+      provided_by:
+        go-plus:
+          count: 25
+    biolink:results_in_development_of:
+      count: 767
+      provided_by:
+        go-plus:
+          count: 767
+    biolink:results_in_developmental_progression_of:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:results_in_disassembly_of:
+      count: 75
+      provided_by:
+        go-plus:
+          count: 75
+    biolink:results_in_distribution_of:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:results_in_fission_of:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:results_in_formation_of:
+      count: 214
+      provided_by:
+        go-plus:
+          count: 214
+    biolink:results_in_fusion_of:
+      count: 33
+      provided_by:
+        go-plus:
+          count: 33
+    biolink:results_in_growth_of:
+      count: 28
+      provided_by:
+        go-plus:
+          count: 28
+    biolink:results_in_maintenance_of:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:results_in_maturation_of:
+      count: 77
+      provided_by:
+        go-plus:
+          count: 77
+    biolink:results_in_morphogenesis_of:
+      count: 394
+      provided_by:
+        go-plus:
+          count: 394
+    biolink:results_in_movement_of:
+      count: 88
+      provided_by:
+        go-plus:
+          count: 88
+    biolink:results_in_organization_of:
+      count: 191
+      provided_by:
+        go-plus:
+          count: 191
+    biolink:results_in_remodeling_of:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:results_in_specification_of:
+      count: 37
+      provided_by:
+        go-plus:
+          count: 37
+    biolink:results_in_structural_organization_of:
+      count: 37
+      provided_by:
+        go-plus:
+          count: 37
+    biolink:results_in_transport_across:
+      count: 52
+      provided_by:
+        go-plus:
+          count: 52
+    biolink:results_in_transport_along:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:results_in_transport_to_from_or_in:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:serially_homologous_to:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:sexually_homologous_to:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:simultaneous_with:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:site_of:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:skeleton_of:
+      count: 38
+      provided_by:
+        go-plus:
+          count: 38
+    biolink:starts:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:starts_with:
+      count: 78
+      provided_by:
+        go-plus:
+          count: 78
+    biolink:subPropertyOf:
+      count: 265
+      provided_by:
+        go-plus:
+          count: 263
+        mondo:
+          count: 2
+    biolink:subclass_of:
+      count: 177373
+      provided_by:
+        go-plus:
+          count: 119565
+        hp:
+          count: 19395
+        mondo:
+          count: 38534
+    biolink:subdivision_of:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:superficial_to:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:supplies:
+      count: 61
+      provided_by:
+        go-plus:
+          count: 61
+    biolink:surrounded_by:
+      count: 24
+      provided_by:
+        go-plus:
+          count: 24
+    biolink:surrounds:
+      count: 37
+      provided_by:
+        go-plus:
+          count: 37
+    biolink:synapsed_by:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:transformation_of:
+      count: 39
+      provided_by:
+        go-plus:
+          count: 39
+    biolink:transmitted_by:
+      count: 74
+      provided_by:
+        mondo:
+          count: 74
+    biolink:transports_or_maintains_localization_of:
+      count: 1069
+      provided_by:
+        go-plus:
+          count: 1069
+    biolink:tributary_of:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:trunk_part_of:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:type:
+      count: 18
+      provided_by:
+        go-plus:
+          count: 18
+    biolink:ventral_to:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    unknown:
+      count: 0
+  count_by_spo:
+    biolink:AnatomicalEntity-biolink:adjacent_to-biolink:AnatomicalEntity:
+      count: 144
+      provided_by:
+        go-plus:
+          count: 144
+    biolink:AnatomicalEntity-biolink:adjacent_to-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:anterior_to-biolink:AnatomicalEntity:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:AnatomicalEntity-biolink:anteriorly_connected_to-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:attaches_to-biolink:AnatomicalEntity:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:AnatomicalEntity-biolink:attaches_to_part_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:bounding_layer_of-biolink:AnatomicalEntity:
+      count: 44
+      provided_by:
+        go-plus:
+          count: 44
+    biolink:AnatomicalEntity-biolink:bounding_layer_of-biolink:Cell:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:branching_part_of-biolink:AnatomicalEntity:
+      count: 49
+      provided_by:
+        go-plus:
+          count: 49
+    biolink:AnatomicalEntity-biolink:capable_of-biolink:BiologicalProcess:
+      count: 78
+      provided_by:
+        go-plus:
+          count: 78
+    biolink:AnatomicalEntity-biolink:capable_of-unknown:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:capable_of_part_of-biolink:BiologicalProcess:
+      count: 61
+      provided_by:
+        go-plus:
+          count: 61
+    biolink:AnatomicalEntity-biolink:capable_of_part_of-unknown:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:channel_for-biolink:AnatomicalEntity:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:AnatomicalEntity-biolink:channel_for-biolink:Cell:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:channels_from-biolink:AnatomicalEntity:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:AnatomicalEntity-biolink:channels_into-biolink:AnatomicalEntity:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:AnatomicalEntity-biolink:composed_primarily_of-biolink:AnatomicalEntity:
+      count: 85
+      provided_by:
+        go-plus:
+          count: 85
+    biolink:AnatomicalEntity-biolink:composed_primarily_of-biolink:Cell:
+      count: 43
+      provided_by:
+        go-plus:
+          count: 43
+    biolink:AnatomicalEntity-biolink:composed_primarily_of-biolink:CellularComponent:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:AnatomicalEntity-biolink:composed_primarily_of-biolink:ChemicalSubstance:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:AnatomicalEntity-biolink:composed_primarily_of-unknown:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:AnatomicalEntity-biolink:conduit_for-biolink:AnatomicalEntity:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:AnatomicalEntity-biolink:confers_advantage_in-unknown:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:AnatomicalEntity-biolink:connected_to-biolink:AnatomicalEntity:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:AnatomicalEntity-biolink:connects-biolink:AnatomicalEntity:
+      count: 165
+      provided_by:
+        go-plus:
+          count: 165
+    biolink:AnatomicalEntity-biolink:contains-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:contains_process-biolink:BiologicalProcess:
+      count: 18
+      provided_by:
+        go-plus:
+          count: 18
+    biolink:AnatomicalEntity-biolink:continuous_with-biolink:AnatomicalEntity:
+      count: 64
+      provided_by:
+        go-plus:
+          count: 64
+    biolink:AnatomicalEntity-biolink:contributes_to_morphology_of-biolink:AnatomicalEntity:
+      count: 403
+      provided_by:
+        go-plus:
+          count: 403
+    biolink:AnatomicalEntity-biolink:deep_to-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:developmentally_induced_by-biolink:AnatomicalEntity:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:AnatomicalEntity-biolink:developmentally_replaces-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:develops_from-biolink:AnatomicalEntity:
+      count: 736
+      provided_by:
+        go-plus:
+          count: 736
+    biolink:AnatomicalEntity-biolink:develops_from-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:develops_from-unknown:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:develops_from_part_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:develops_in-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:directly_develops_from-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:distal_to-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:distally_connected_to-biolink:AnatomicalEntity:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:AnatomicalEntity-biolink:distalmost_part_of-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:dorsal_to-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:drains-biolink:AnatomicalEntity:
+      count: 48
+      provided_by:
+        go-plus:
+          count: 48
+    biolink:AnatomicalEntity-biolink:ends-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:ends_with-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:existence_ends_during-biolink:AnatomicalEntity:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:AnatomicalEntity-biolink:existence_ends_during_or_before-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:existence_ends_with-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:existence_starts_and_ends_during-biolink:AnatomicalEntity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:AnatomicalEntity-biolink:existence_starts_during-biolink:AnatomicalEntity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:AnatomicalEntity-biolink:existence_starts_during_or_after-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:existence_starts_with-biolink:AnatomicalEntity:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:AnatomicalEntity-biolink:extends_fibers_into-biolink:AnatomicalEntity:
+      count: 100
+      provided_by:
+        go-plus:
+          count: 100
+    biolink:AnatomicalEntity-biolink:extends_fibers_into-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:filtered_through-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:functionally_related_to-biolink:BiologicalProcess:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:has_boundary-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:has_component-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:has_developmental_contribution_from-biolink:AnatomicalEntity:
+      count: 83
+      provided_by:
+        go-plus:
+          count: 83
+    biolink:AnatomicalEntity-biolink:has_fused_element-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:has_member-biolink:AnatomicalEntity:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:AnatomicalEntity-biolink:has_muscle_antagonist-biolink:AnatomicalEntity:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:AnatomicalEntity-biolink:has_muscle_insertion-biolink:AnatomicalEntity:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:AnatomicalEntity-biolink:has_muscle_origin-biolink:AnatomicalEntity:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:AnatomicalEntity-biolink:has_part-biolink:AnatomicalEntity:
+      count: 243
+      provided_by:
+        go-plus:
+          count: 243
+    biolink:AnatomicalEntity-biolink:has_part-biolink:Cell:
+      count: 114
+      provided_by:
+        go-plus:
+          count: 114
+    biolink:AnatomicalEntity-biolink:has_part-biolink:CellularComponent:
+      count: 28
+      provided_by:
+        go-plus:
+          count: 28
+    biolink:AnatomicalEntity-biolink:has_part-biolink:ChemicalSubstance:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:AnatomicalEntity-biolink:has_part-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:has_part-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:has_part-unknown:
+      count: 51
+      provided_by:
+        go-plus:
+          count: 51
+    biolink:AnatomicalEntity-biolink:has_potential_to_develop_into-biolink:AnatomicalEntity:
+      count: 170
+      provided_by:
+        go-plus:
+          count: 170
+    biolink:AnatomicalEntity-biolink:has_potential_to_developmentally_contribute_to-biolink:AnatomicalEntity:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:AnatomicalEntity-biolink:has_potential_to_developmentally_contribute_to-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:has_quality-biolink:OntologyClass:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:has_quality-unknown:
+      count: 44
+      provided_by:
+        go-plus:
+          count: 44
+    biolink:AnatomicalEntity-biolink:has_skeleton-biolink:AnatomicalEntity:
+      count: 48
+      provided_by:
+        go-plus:
+          count: 48
+    biolink:AnatomicalEntity-biolink:immediate_transformation_of-biolink:AnatomicalEntity:
+      count: 62
+      provided_by:
+        go-plus:
+          count: 62
+    biolink:AnatomicalEntity-biolink:immediately_deep_to-biolink:AnatomicalEntity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:AnatomicalEntity-biolink:immediately_preceded_by-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:immediately_superficial_to-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:in_anterior_side_of-biolink:AnatomicalEntity:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:AnatomicalEntity-biolink:in_deep_part_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:in_distal_side_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:in_dorsal_side_of-biolink:AnatomicalEntity:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:AnatomicalEntity-biolink:in_lateral_side_of-biolink:AnatomicalEntity:
+      count: 56
+      provided_by:
+        go-plus:
+          count: 56
+    biolink:AnatomicalEntity-biolink:in_left_side_of-biolink:AnatomicalEntity:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+    biolink:AnatomicalEntity-biolink:in_posterior_side_of-biolink:AnatomicalEntity:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:AnatomicalEntity-biolink:in_proximal_side_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:in_right_side_of-biolink:AnatomicalEntity:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:AnatomicalEntity-biolink:in_superficial_part_of-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:in_ventral_side_of-biolink:AnatomicalEntity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:AnatomicalEntity-biolink:indirectly_supplies-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:innervated_by-biolink:AnatomicalEntity:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:AnatomicalEntity-biolink:innervates-biolink:AnatomicalEntity:
+      count: 37
+      provided_by:
+        go-plus:
+          count: 37
+    biolink:AnatomicalEntity-biolink:intersects_midsagittal_plane_of-biolink:AnatomicalEntity:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:AnatomicalEntity-biolink:layer_part_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:located_in-biolink:AnatomicalEntity:
+      count: 65
+      provided_by:
+        go-plus:
+          count: 65
+    biolink:AnatomicalEntity-biolink:location_of-biolink:AnatomicalEntity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:AnatomicalEntity-biolink:lumen_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:luminal_space_of-biolink:AnatomicalEntity:
+      count: 66
+      provided_by:
+        go-plus:
+          count: 66
+    biolink:AnatomicalEntity-biolink:only_in_taxon-organism taxon:
+      count: 269
+      provided_by:
+        go-plus:
+          count: 269
+    biolink:AnatomicalEntity-biolink:only_in_taxon-unknown:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:output_of-biolink:BiologicalProcess:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:AnatomicalEntity-biolink:overlaps-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:part_of-biolink:AnatomicalEntity:
+      count: 3474
+      provided_by:
+        go-plus:
+          count: 3474
+    biolink:AnatomicalEntity-biolink:part_of-biolink:BiologicalProcess:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:AnatomicalEntity-biolink:part_of-biolink:Cell:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:part_of-organism taxon:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:participates_in-biolink:BiologicalProcess:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:postaxialmost_part_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:posterior_to-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:posteriorly_connected_to-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:preaxialmost_part_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:preceded_by-biolink:AnatomicalEntity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:AnatomicalEntity-biolink:precedes-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:produced_by-biolink:AnatomicalEntity:
+      count: 30
+      provided_by:
+        go-plus:
+          count: 30
+    biolink:AnatomicalEntity-biolink:produced_by-biolink:Cell:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:produced_by-unknown:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:produces-biolink:AnatomicalEntity:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:AnatomicalEntity-biolink:produces-unknown:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:protects-biolink:AnatomicalEntity:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:AnatomicalEntity-biolink:proximal_to-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:proximally_connected_to-biolink:AnatomicalEntity:
+      count: 35
+      provided_by:
+        go-plus:
+          count: 35
+    biolink:AnatomicalEntity-biolink:proximalmost_part_of-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:serially_homologous_to-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:sexually_homologous_to-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:AnatomicalEntity-biolink:simultaneous_with-biolink:BiologicalProcess:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:AnatomicalEntity-biolink:site_of-biolink:BiologicalProcess:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:AnatomicalEntity-biolink:skeleton_of-biolink:AnatomicalEntity:
+      count: 38
+      provided_by:
+        go-plus:
+          count: 38
+    biolink:AnatomicalEntity-biolink:starts-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:starts_with-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:subclass_of-biolink:AnatomicalEntity:
+      count: 7124
+      provided_by:
+        go-plus:
+          count: 7124
+    biolink:AnatomicalEntity-biolink:subclass_of-biolink:OntologyClass:
+      count: 621
+      provided_by:
+        go-plus:
+          count: 602
+        mondo:
+          count: 24
+    biolink:AnatomicalEntity-biolink:subclass_of-unknown:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+        mondo:
+          count: 15
+    biolink:AnatomicalEntity-biolink:subdivision_of-biolink:AnatomicalEntity:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:AnatomicalEntity-biolink:superficial_to-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:AnatomicalEntity-biolink:supplies-biolink:AnatomicalEntity:
+      count: 61
+      provided_by:
+        go-plus:
+          count: 61
+    biolink:AnatomicalEntity-biolink:surrounded_by-biolink:AnatomicalEntity:
+      count: 24
+      provided_by:
+        go-plus:
+          count: 24
+    biolink:AnatomicalEntity-biolink:surrounds-biolink:AnatomicalEntity:
+      count: 34
+      provided_by:
+        go-plus:
+          count: 34
+    biolink:AnatomicalEntity-biolink:surrounds-biolink:Cell:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:AnatomicalEntity-biolink:surrounds-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:synapsed_by-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:transformation_of-biolink:AnatomicalEntity:
+      count: 39
+      provided_by:
+        go-plus:
+          count: 39
+    biolink:AnatomicalEntity-biolink:tributary_of-biolink:AnatomicalEntity:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:AnatomicalEntity-biolink:trunk_part_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:AnatomicalEntity-biolink:ventral_to-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:acts_on_population_of-biolink:Cell:
+      count: 84
+      provided_by:
+        go-plus:
+          count: 84
+    biolink:BiologicalProcess-biolink:bearer_of-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:causally_upstream_of-biolink:BiologicalProcess:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:directly_positively_regulates-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:ends_during-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:ends_with-biolink:BiologicalProcess:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:BiologicalProcess-biolink:ends_with-biolink:MolecularActivity:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:BiologicalProcess-biolink:ends_with-biolink:OntologyClass:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:BiologicalProcess-biolink:exports-biolink:CellularComponent:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:exports-biolink:ChemicalSubstance:
+      count: 40
+      provided_by:
+        go-plus:
+          count: 40
+    biolink:BiologicalProcess-biolink:exports-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:exports-biolink:OntologyClass:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:exports-biolink:SequenceFeature:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:happens_during-biolink:BiologicalProcess:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:has_end_location-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_end_location-biolink:Cell:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:has_end_location-biolink:CellularComponent:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:BiologicalProcess-biolink:has_input-biolink:AnatomicalEntity:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:has_input-biolink:Cell:
+      count: 64
+      provided_by:
+        go-plus:
+          count: 64
+    biolink:BiologicalProcess-biolink:has_input-biolink:CellularComponent:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:BiologicalProcess-biolink:has_input-biolink:ChemicalSubstance:
+      count: 455
+      provided_by:
+        go-plus:
+          count: 455
+    biolink:BiologicalProcess-biolink:has_input-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_input-biolink:OntologyClass:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+    biolink:BiologicalProcess-biolink:has_input-biolink:Protein:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:has_input-biolink:SequenceFeature:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_input-organism taxon:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:has_intermediate-biolink:ChemicalSubstance:
+      count: 83
+      provided_by:
+        go-plus:
+          count: 83
+    biolink:BiologicalProcess-biolink:has_output-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_output-biolink:CellularComponent:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:BiologicalProcess-biolink:has_output-biolink:ChemicalSubstance:
+      count: 92
+      provided_by:
+        go-plus:
+          count: 92
+    biolink:BiologicalProcess-biolink:has_output-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_output-biolink:SequenceFeature:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:BiologicalProcess-biolink:has_part-biolink:BiologicalProcess:
+      count: 225
+      provided_by:
+        go-plus:
+          count: 225
+    biolink:BiologicalProcess-biolink:has_part-biolink:MolecularActivity:
+      count: 73
+      provided_by:
+        go-plus:
+          count: 73
+    biolink:BiologicalProcess-biolink:has_part-biolink:OntologyClass:
+      count: 100
+      provided_by:
+        go-plus:
+          count: 100
+    biolink:BiologicalProcess-biolink:has_participant-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_participant-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_participant-biolink:Cell:
+      count: 28
+      provided_by:
+        go-plus:
+          count: 28
+    biolink:BiologicalProcess-biolink:has_participant-biolink:CellularComponent:
+      count: 32
+      provided_by:
+        go-plus:
+          count: 32
+    biolink:BiologicalProcess-biolink:has_participant-biolink:ChemicalSubstance:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:BiologicalProcess-biolink:has_participant-biolink:MolecularActivity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:has_participant-biolink:OntologyClass:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:BiologicalProcess-biolink:has_participant-biolink:Protein:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_participant-biolink:SequenceFeature:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:CellularComponent:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:ChemicalSubstance:
+      count: 1000
+      provided_by:
+        go-plus:
+          count: 1000
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:OntologyClass:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_primary_input-biolink:SequenceFeature:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:ChemicalSubstance:
+      count: 1277
+      provided_by:
+        go-plus:
+          count: 1277
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:OntologyClass:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:Protein:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_primary_input_or_output-biolink:SequenceFeature:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:BiologicalProcess-biolink:has_primary_output-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_primary_output-biolink:ChemicalSubstance:
+      count: 1168
+      provided_by:
+        go-plus:
+          count: 1168
+    biolink:BiologicalProcess-biolink:has_primary_output-biolink:OntologyClass:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:BiologicalProcess-biolink:has_primary_output-biolink:Protein:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:has_primary_output-biolink:SequenceFeature:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_start_location-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:has_start_location-biolink:Cell:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:has_start_location-biolink:CellularComponent:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:has_target_end_location-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_target_end_location-biolink:Cell:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:has_target_end_location-biolink:CellularComponent:
+      count: 269
+      provided_by:
+        go-plus:
+          count: 269
+    biolink:BiologicalProcess-biolink:has_target_start_location-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:has_target_start_location-biolink:Cell:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:has_target_start_location-biolink:CellularComponent:
+      count: 96
+      provided_by:
+        go-plus:
+          count: 96
+    biolink:BiologicalProcess-biolink:immediately_causally_upstream_of-biolink:BiologicalProcess:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:immediately_preceded_by-biolink:BiologicalProcess:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:BiologicalProcess-biolink:immediately_precedes-biolink:BiologicalProcess:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:imports-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:imports-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:imports-biolink:ChemicalSubstance:
+      count: 122
+      provided_by:
+        go-plus:
+          count: 122
+    biolink:BiologicalProcess-biolink:imports-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:imports-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:imports-biolink:SequenceFeature:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:negatively_regulates-biolink:BiologicalProcess:
+      count: 2777
+      provided_by:
+        go-plus:
+          count: 2777
+    biolink:BiologicalProcess-biolink:negatively_regulates-biolink:MolecularActivity:
+      count: 58
+      provided_by:
+        go-plus:
+          count: 58
+    biolink:BiologicalProcess-biolink:negatively_regulates-biolink:NamedThing:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:negatively_regulates-biolink:OntologyClass:
+      count: 217
+      provided_by:
+        go-plus:
+          count: 217
+    biolink:BiologicalProcess-biolink:occurs_in-biolink:AnatomicalEntity:
+      count: 61
+      provided_by:
+        go-plus:
+          count: 61
+    biolink:BiologicalProcess-biolink:occurs_in-biolink:Cell:
+      count: 129
+      provided_by:
+        go-plus:
+          count: 129
+    biolink:BiologicalProcess-biolink:occurs_in-biolink:CellularComponent:
+      count: 150
+      provided_by:
+        go-plus:
+          count: 150
+    biolink:BiologicalProcess-biolink:occurs_in-biolink:OntologyClass:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:only_in_taxon-organism taxon:
+      count: 420
+      provided_by:
+        go-plus:
+          count: 420
+    biolink:BiologicalProcess-biolink:part_of-biolink:BiologicalProcess:
+      count: 5256
+      provided_by:
+        go-plus:
+          count: 5256
+    biolink:BiologicalProcess-biolink:positively_regulates-biolink:BiologicalProcess:
+      count: 2764
+      provided_by:
+        go-plus:
+          count: 2764
+    biolink:BiologicalProcess-biolink:positively_regulates-biolink:MolecularActivity:
+      count: 67
+      provided_by:
+        go-plus:
+          count: 67
+    biolink:BiologicalProcess-biolink:positively_regulates-biolink:NamedThing:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:positively_regulates-biolink:OntologyClass:
+      count: 216
+      provided_by:
+        go-plus:
+          count: 216
+    biolink:BiologicalProcess-biolink:preceded_by-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:precedes-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:Cell:
+      count: 24
+      provided_by:
+        go-plus:
+          count: 24
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:CellularComponent:
+      count: 18
+      provided_by:
+        go-plus:
+          count: 18
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:ChemicalSubstance:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:NamedThing:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:Protein:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:BiologicalProcess-biolink:process_has_causal_agent-biolink:SequenceFeature:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:BiologicalProcess-biolink:regulated_by-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:regulates-biolink:BiologicalProcess:
+      count: 3210
+      provided_by:
+        go-plus:
+          count: 3210
+    biolink:BiologicalProcess-biolink:regulates-biolink:MolecularActivity:
+      count: 73
+      provided_by:
+        go-plus:
+          count: 73
+    biolink:BiologicalProcess-biolink:regulates-biolink:NamedThing:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:BiologicalProcess-biolink:regulates-biolink:OntologyClass:
+      count: 302
+      provided_by:
+        go-plus:
+          count: 302
+    biolink:BiologicalProcess-biolink:regulates_levels_of-biolink:ChemicalSubstance:
+      count: 62
+      provided_by:
+        go-plus:
+          count: 62
+    biolink:BiologicalProcess-biolink:regulates_levels_of-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:related_to-biolink:Publication:
+      count: 1124814
+      provided_by:
+        SciBite-CORD-19:
+          count: 1124814
+    biolink:BiologicalProcess-biolink:results_in-biolink:BiologicalProcess:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:BiologicalProcess-biolink:results_in_acquisition_of_features_of-biolink:Cell:
+      count: 300
+      provided_by:
+        go-plus:
+          count: 300
+    biolink:BiologicalProcess-biolink:results_in_acquisition_of_features_of-biolink:OntologyClass:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+    biolink:BiologicalProcess-biolink:results_in_assembly_of-biolink:CellularComponent:
+      count: 306
+      provided_by:
+        go-plus:
+          count: 306
+    biolink:BiologicalProcess-biolink:results_in_assembly_of-biolink:NamedThing:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:results_in_commitment_to-biolink:Cell:
+      count: 57
+      provided_by:
+        go-plus:
+          count: 57
+    biolink:BiologicalProcess-biolink:results_in_commitment_to-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:results_in_determination_of-biolink:Cell:
+      count: 25
+      provided_by:
+        go-plus:
+          count: 25
+    biolink:BiologicalProcess-biolink:results_in_development_of-biolink:AnatomicalEntity:
+      count: 588
+      provided_by:
+        go-plus:
+          count: 588
+    biolink:BiologicalProcess-biolink:results_in_development_of-biolink:Cell:
+      count: 98
+      provided_by:
+        go-plus:
+          count: 98
+    biolink:BiologicalProcess-biolink:results_in_development_of-biolink:CellularComponent:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:results_in_development_of-biolink:OntologyClass:
+      count: 77
+      provided_by:
+        go-plus:
+          count: 77
+    biolink:BiologicalProcess-biolink:results_in_developmental_progression_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_disassembly_of-biolink:CellularComponent:
+      count: 71
+      provided_by:
+        go-plus:
+          count: 71
+    biolink:BiologicalProcess-biolink:results_in_disassembly_of-biolink:NamedThing:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:results_in_distribution_of-biolink:CellularComponent:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:BiologicalProcess-biolink:results_in_fission_of-biolink:CellularComponent:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:results_in_formation_of-biolink:AnatomicalEntity:
+      count: 174
+      provided_by:
+        go-plus:
+          count: 174
+    biolink:BiologicalProcess-biolink:results_in_formation_of-biolink:Cell:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:BiologicalProcess-biolink:results_in_formation_of-biolink:CellularComponent:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:results_in_formation_of-biolink:OntologyClass:
+      count: 23
+      provided_by:
+        go-plus:
+          count: 23
+    biolink:BiologicalProcess-biolink:results_in_fusion_of-biolink:CellularComponent:
+      count: 33
+      provided_by:
+        go-plus:
+          count: 33
+    biolink:BiologicalProcess-biolink:results_in_growth_of-biolink:AnatomicalEntity:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:BiologicalProcess-biolink:results_in_growth_of-biolink:Cell:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:BiologicalProcess-biolink:results_in_growth_of-biolink:CellularComponent:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:results_in_growth_of-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_maintenance_of-biolink:CellularComponent:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:BiologicalProcess-biolink:results_in_maturation_of-biolink:AnatomicalEntity:
+      count: 53
+      provided_by:
+        go-plus:
+          count: 53
+    biolink:BiologicalProcess-biolink:results_in_maturation_of-biolink:Cell:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:BiologicalProcess-biolink:results_in_maturation_of-biolink:CellularComponent:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:results_in_maturation_of-biolink:OntologyClass:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:BiologicalProcess-biolink:results_in_morphogenesis_of-biolink:AnatomicalEntity:
+      count: 342
+      provided_by:
+        go-plus:
+          count: 342
+    biolink:BiologicalProcess-biolink:results_in_morphogenesis_of-biolink:Cell:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:results_in_morphogenesis_of-biolink:CellularComponent:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:BiologicalProcess-biolink:results_in_morphogenesis_of-biolink:OntologyClass:
+      count: 30
+      provided_by:
+        go-plus:
+          count: 30
+    biolink:BiologicalProcess-biolink:results_in_movement_of-biolink:Cell:
+      count: 87
+      provided_by:
+        go-plus:
+          count: 87
+    biolink:BiologicalProcess-biolink:results_in_movement_of-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_organization_of-biolink:CellularComponent:
+      count: 190
+      provided_by:
+        go-plus:
+          count: 190
+    biolink:BiologicalProcess-biolink:results_in_organization_of-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_remodeling_of-biolink:CellularComponent:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:BiologicalProcess-biolink:results_in_specification_of-biolink:AnatomicalEntity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:results_in_specification_of-biolink:Cell:
+      count: 26
+      provided_by:
+        go-plus:
+          count: 26
+    biolink:BiologicalProcess-biolink:results_in_specification_of-biolink:OntologyClass:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:BiologicalProcess-biolink:results_in_structural_organization_of-biolink:AnatomicalEntity:
+      count: 28
+      provided_by:
+        go-plus:
+          count: 28
+    biolink:BiologicalProcess-biolink:results_in_structural_organization_of-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_structural_organization_of-biolink:OntologyClass:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:BiologicalProcess-biolink:results_in_transport_across-biolink:AnatomicalEntity:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:BiologicalProcess-biolink:results_in_transport_across-biolink:CellularComponent:
+      count: 43
+      provided_by:
+        go-plus:
+          count: 43
+    biolink:BiologicalProcess-biolink:results_in_transport_along-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:results_in_transport_along-biolink:CellularComponent:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:BiologicalProcess-biolink:results_in_transport_to_from_or_in-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:results_in_transport_to_from_or_in-biolink:CellularComponent:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:BiologicalProcess-biolink:starts_with-biolink:BiologicalProcess:
+      count: 33
+      provided_by:
+        go-plus:
+          count: 33
+    biolink:BiologicalProcess-biolink:starts_with-biolink:MolecularActivity:
+      count: 22
+      provided_by:
+        go-plus:
+          count: 22
+    biolink:BiologicalProcess-biolink:starts_with-biolink:OntologyClass:
+      count: 22
+      provided_by:
+        go-plus:
+          count: 22
+    biolink:BiologicalProcess-biolink:subclass_of-biolink:BiologicalProcess:
+      count: 54436
+      provided_by:
+        go-plus:
+          count: 54436
+    biolink:BiologicalProcess-biolink:subclass_of-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:Cell:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:CellularComponent:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:ChemicalSubstance:
+      count: 524
+      provided_by:
+        go-plus:
+          count: 524
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:NamedThing:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:OntologyClass:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:Protein:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:BiologicalProcess-biolink:transports_or_maintains_localization_of-biolink:SequenceFeature:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:Cell-biolink:develops_from-biolink:Cell:
+      count: 173
+      provided_by:
+        go-plus:
+          count: 173
+    biolink:Cell-biolink:subclass_of-biolink:Cell:
+      count: 996
+      provided_by:
+        go-plus:
+          count: 994
+        mondo:
+          count: 103
+    biolink:Cell-biolink:subclass_of-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:CellularComponent-biolink:adjacent_to-biolink:CellularComponent:
+      count: 22
+      provided_by:
+        go-plus:
+          count: 22
+    biolink:CellularComponent-biolink:bearer_of-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:CellularComponent-biolink:bounding_layer_of-biolink:CellularComponent:
+      count: 105
+      provided_by:
+        go-plus:
+          count: 105
+    biolink:CellularComponent-biolink:capable_of-biolink:BiologicalProcess:
+      count: 32
+      provided_by:
+        go-plus:
+          count: 32
+    biolink:CellularComponent-biolink:capable_of-biolink:MolecularActivity:
+      count: 162
+      provided_by:
+        go-plus:
+          count: 162
+    biolink:CellularComponent-biolink:capable_of-biolink:NamedThing:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:CellularComponent-biolink:capable_of-biolink:OntologyClass:
+      count: 287
+      provided_by:
+        go-plus:
+          count: 287
+    biolink:CellularComponent-biolink:capable_of_part_of-biolink:BiologicalProcess:
+      count: 282
+      provided_by:
+        go-plus:
+          count: 282
+    biolink:CellularComponent-biolink:capable_of_part_of-biolink:MolecularActivity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:CellularComponent-biolink:capable_of_part_of-biolink:OntologyClass:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:CellularComponent-biolink:coincident_with-biolink:SequenceFeature:
+      count: 6
+      provided_by:
+        go-plus:
+          count: 6
+    biolink:CellularComponent-biolink:has_part-biolink:CellularComponent:
+      count: 173
+      provided_by:
+        go-plus:
+          count: 173
+    biolink:CellularComponent-biolink:has_part-biolink:ChemicalSubstance:
+      count: 16
+      provided_by:
+        go-plus:
+          count: 16
+    biolink:CellularComponent-biolink:has_part-biolink:NamedThing:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:CellularComponent-biolink:only_in_taxon-organism taxon:
+      count: 232
+      provided_by:
+        go-plus:
+          count: 232
+    biolink:CellularComponent-biolink:overlaps-biolink:Cell:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:CellularComponent-biolink:overlaps-biolink:CellularComponent:
+      count: 26
+      provided_by:
+        go-plus:
+          count: 26
+    biolink:CellularComponent-biolink:part_of-biolink:Cell:
+      count: 151
+      provided_by:
+        go-plus:
+          count: 151
+    biolink:CellularComponent-biolink:part_of-biolink:CellularComponent:
+      count: 2152
+      provided_by:
+        go-plus:
+          count: 2152
+    biolink:CellularComponent-biolink:part_of-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:CellularComponent-biolink:part_of-biolink:OntologyClass:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:CellularComponent-biolink:related_to-biolink:Publication:
+      count: 352896
+      provided_by:
+        SciBite-CORD-19:
+          count: 352896
+    biolink:CellularComponent-biolink:subclass_of-biolink:CellularComponent:
+      count: 4116
+      provided_by:
+        go-plus:
+          count: 4116
+    biolink:CellularComponent-biolink:subclass_of-biolink:NamedThing:
+      count: 564
+      provided_by:
+        go-plus:
+          count: 564
+    biolink:CellularComponent-biolink:subclass_of-biolink:OntologyClass:
+      count: 17
+      provided_by:
+        go-plus:
+          count: 17
+    biolink:ChemicalSubstance-biolink:has_part-biolink:ChemicalSubstance:
+      count: 264
+      provided_by:
+        go-plus:
+          count: 264
+    biolink:ChemicalSubstance-biolink:has_role-biolink:ChemicalSubstance:
+      count: 10009
+      provided_by:
+        go-plus:
+          count: 10009
+    biolink:ChemicalSubstance-biolink:interacts_with-biolink:ChemicalSubstance:
+      count: 2
+      provided_by:
+        intact:
+          count: 2
+    biolink:ChemicalSubstance-biolink:interacts_with-biolink:Drug:
+      count: 1
+      provided_by:
+        intact:
+          count: 1
+    biolink:ChemicalSubstance-biolink:interacts_with-biolink:Gene:
+      count: 424
+      provided_by:
+        pharmgkb:
+          count: 424
+    biolink:ChemicalSubstance-biolink:interacts_with-biolink:NamedThing:
+      count: 30
+      provided_by:
+        pharmgkb:
+          count: 30
+    biolink:ChemicalSubstance-biolink:interacts_with-biolink:Protein:
+      count: 1010
+      provided_by:
+        intact:
+          count: 11
+        pharmgkb:
+          count: 999
+    biolink:ChemicalSubstance-biolink:interacts_with-unknown:
+      count: 4309
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 4309
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 36440
+      provided_by:
+        go-plus:
+          count: 36440
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:NamedThing:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:OntologyClass:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:SequenceFeature:
+      count: 23
+      provided_by:
+        go-plus:
+          count: 23
+    biolink:Disease-biolink:disease_arises_from_feature-biolink:Disease:
+      count: 68
+      provided_by:
+        mondo:
+          count: 68
+    biolink:Disease-biolink:disease_arises_from_feature-biolink:PhenotypicFeature:
+      count: 42
+      provided_by:
+        mondo:
+          count: 42
+    biolink:Disease-biolink:disease_arises_from_structure-biolink:AnatomicalEntity:
+      count: 50
+      provided_by:
+        mondo:
+          count: 50
+    biolink:Disease-biolink:disease_arises_from_structure-biolink:Cell:
+      count: 46
+      provided_by:
+        mondo:
+          count: 46
+    biolink:Disease-biolink:disease_arises_from_structure-unknown:
+      count: 17
+      provided_by:
+        mondo:
+          count: 17
+    biolink:Disease-biolink:disease_caused_by_disruption_of-biolink:BiologicalProcess:
+      count: 173
+      provided_by:
+        mondo:
+          count: 173
+    biolink:Disease-biolink:disease_caused_by_disruption_of-biolink:CellularComponent:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_caused_by_disruption_of-biolink:MolecularActivity:
+      count: 16
+      provided_by:
+        mondo:
+          count: 16
+    biolink:Disease-biolink:disease_caused_by_disruption_of-biolink:OntologyClass:
+      count: 84
+      provided_by:
+        mondo:
+          count: 84
+    biolink:Disease-biolink:disease_caused_by_disruption_of-unknown:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_causes_dysfunction_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_causes_dysfunction_of-biolink:Cell:
+      count: 4
+      provided_by:
+        mondo:
+          count: 4
+    biolink:Disease-biolink:disease_causes_dysfunction_of-unknown:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_causes_feature-biolink:Disease:
+      count: 8
+      provided_by:
+        mondo:
+          count: 8
+    biolink:Disease-biolink:disease_causes_feature-biolink:PhenotypicFeature:
+      count: 5
+      provided_by:
+        mondo:
+          count: 5
+    biolink:Disease-biolink:disease_disrupts-biolink:BiologicalProcess:
+      count: 83
+      provided_by:
+        mondo:
+          count: 83
+    biolink:Disease-biolink:disease_disrupts-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_disrupts-biolink:OntologyClass:
+      count: 9
+      provided_by:
+        mondo:
+          count: 9
+    biolink:Disease-biolink:disease_disrupts-unknown:
+      count: 8
+      provided_by:
+        mondo:
+          count: 8
+    biolink:Disease-biolink:disease_has_basis_in_accumulation_of-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_has_basis_in_development_of-biolink:AnatomicalEntity:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:AnatomicalEntity:
+      count: 21
+      provided_by:
+        mondo:
+          count: 21
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:Cell:
+      count: 8
+      provided_by:
+        mondo:
+          count: 8
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:CellularComponent:
+      count: 29
+      provided_by:
+        mondo:
+          count: 29
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:NamedThing:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-biolink:Protein:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_has_basis_in_dysfunction_of-unknown:
+      count: 4409
+      provided_by:
+        mondo:
+          count: 4409
+    biolink:Disease-biolink:disease_has_feature-biolink:Disease:
+      count: 310
+      provided_by:
+        mondo:
+          count: 310
+    biolink:Disease-biolink:disease_has_feature-biolink:PhenotypicFeature:
+      count: 747
+      provided_by:
+        mondo:
+          count: 747
+    biolink:Disease-biolink:disease_has_feature-unknown:
+      count: 19
+      provided_by:
+        mondo:
+          count: 19
+    biolink:Disease-biolink:disease_has_inflammation_site-biolink:AnatomicalEntity:
+      count: 122
+      provided_by:
+        mondo:
+          count: 122
+    biolink:Disease-biolink:disease_has_inflammation_site-biolink:Cell:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:disease_has_inflammation_site-unknown:
+      count: 41
+      provided_by:
+        mondo:
+          count: 41
+    biolink:Disease-biolink:disease_has_location-biolink:AnatomicalEntity:
+      count: 585
+      provided_by:
+        mondo:
+          count: 585
+    biolink:Disease-biolink:disease_has_location-biolink:Cell:
+      count: 45
+      provided_by:
+        mondo:
+          count: 45
+    biolink:Disease-biolink:disease_has_location-biolink:CellularComponent:
+      count: 6
+      provided_by:
+        mondo:
+          count: 6
+    biolink:Disease-biolink:disease_has_location-unknown:
+      count: 211
+      provided_by:
+        mondo:
+          count: 211
+    biolink:Disease-biolink:disease_has_major_feature-biolink:Disease:
+      count: 15
+      provided_by:
+        mondo:
+          count: 15
+    biolink:Disease-biolink:disease_has_major_feature-biolink:PhenotypicFeature:
+      count: 102
+      provided_by:
+        mondo:
+          count: 102
+    biolink:Disease-biolink:disease_responds_to-biolink:ChemicalSubstance:
+      count: 11
+      provided_by:
+        mondo:
+          count: 11
+    biolink:Disease-biolink:disease_responds_to-biolink:Drug:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:disease_shares_features_of-biolink:Disease:
+      count: 49
+      provided_by:
+        mondo:
+          count: 49
+    biolink:Disease-biolink:disease_triggers-biolink:BiologicalProcess:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:has_modifier-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:has_modifier-biolink:Disease:
+      count: 834
+      provided_by:
+        mondo:
+          count: 834
+    biolink:Disease-biolink:has_modifier-biolink:PhenotypicFeature:
+      count: 146
+      provided_by:
+        mondo:
+          count: 146
+    biolink:Disease-biolink:has_modifier-unknown:
+      count: 102
+      provided_by:
+        mondo:
+          count: 102
+    biolink:Disease-biolink:has_onset-biolink:PhenotypicFeature:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:in_taxon-unknown:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:part_of_progression_of_disease-biolink:Disease:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:predisposes_towards-biolink:Disease:
+      count: 146
+      provided_by:
+        mondo:
+          count: 146
+    biolink:Disease-biolink:realized_in-biolink:BiologicalProcess:
+      count: 9
+      provided_by:
+        mondo:
+          count: 9
+    biolink:Disease-biolink:realized_in-unknown:
+      count: 9
+      provided_by:
+        mondo:
+          count: 9
+    biolink:Disease-biolink:realized_in_response_to-biolink:BiologicalProcess:
+      count: 4
+      provided_by:
+        mondo:
+          count: 4
+    biolink:Disease-biolink:realized_in_response_to-unknown:
+      count: 39
+      provided_by:
+        mondo:
+          count: 39
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:Cell:
+      count: 4
+      provided_by:
+        mondo:
+          count: 4
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:ChemicalSubstance:
+      count: 24
+      provided_by:
+        mondo:
+          count: 24
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:Disease:
+      count: 2
+      provided_by:
+        mondo:
+          count: 2
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:Drug:
+      count: 3
+      provided_by:
+        mondo:
+          count: 3
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        mondo:
+          count: 3
+    biolink:Disease-biolink:realized_in_response_to_stimulus-biolink:OrganismalEntity:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:realized_in_response_to_stimulus-organism taxon:
+      count: 13
+      provided_by:
+        mondo:
+          count: 13
+    biolink:Disease-biolink:realized_in_response_to_stimulus-unknown:
+      count: 507
+      provided_by:
+        mondo:
+          count: 507
+    biolink:Disease-biolink:related_to-biolink:Disease:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:related_to-unknown:
+      count: 6
+      provided_by:
+        mondo:
+          count: 6
+    biolink:Disease-biolink:subclass_of-biolink:Disease:
+      count: 38317
+      provided_by:
+        mondo:
+          count: 38317
+    biolink:Disease-biolink:subclass_of-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        mondo:
+          count: 3
+    biolink:Disease-biolink:subclass_of-biolink:PhenotypicFeature:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:subclass_of-unknown:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    biolink:Disease-biolink:transmitted_by-organism taxon:
+      count: 4
+      provided_by:
+        mondo:
+          count: 4
+    biolink:Disease-biolink:transmitted_by-unknown:
+      count: 70
+      provided_by:
+        mondo:
+          count: 70
+    biolink:Drug-biolink:interacts_with-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        intact:
+          count: 1
+    biolink:Drug-biolink:interacts_with-biolink:Gene:
+      count: 1305
+      provided_by:
+        pharmgkb:
+          count: 1305
+    biolink:Drug-biolink:interacts_with-biolink:NamedThing:
+      count: 242
+      provided_by:
+        intact:
+          count: 3
+        pharmgkb:
+          count: 76
+        ttd:
+          count: 163
+    biolink:Drug-biolink:interacts_with-biolink:Protein:
+      count: 85445
+      provided_by:
+        intact:
+          count: 30
+        pharmgkb:
+          count: 2910
+        ttd:
+          count: 82505
+    biolink:Drug-biolink:molecularly_interacts_with-biolink:NamedThing:
+      count: 405
+      provided_by:
+        drug_central:
+          count: 405
+    biolink:Drug-biolink:molecularly_interacts_with-biolink:Protein:
+      count: 13495
+      provided_by:
+        drug_central:
+          count: 13495
+    biolink:Gene-biolink:has_gene_product-biolink:NamedThing:
+      count: 166
+      provided_by:
+        NCBI:
+          count: 166
+    biolink:Gene-biolink:has_gene_product-biolink:Protein:
+      count: 17639
+      provided_by:
+        NCBI:
+          count: 17639
+    biolink:Gene-biolink:interacts_with-biolink:OntologyClass:
+      count: 6
+      provided_by:
+        zhou_host_proteins:
+          count: 6
+    biolink:MolecularActivity-biolink:directly_negatively_regulates-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_negatively_regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_negatively_regulates-biolink:OntologyClass:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:MolecularActivity-biolink:directly_positively_regulates-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_positively_regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_positively_regulates-biolink:OntologyClass:
+      count: 15
+      provided_by:
+        go-plus:
+          count: 15
+    biolink:MolecularActivity-biolink:directly_positively_regulates-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_regulates-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:directly_regulates-biolink:OntologyClass:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:MolecularActivity-biolink:exports-biolink:ChemicalSubstance:
+      count: 31
+      provided_by:
+        go-plus:
+          count: 31
+    biolink:MolecularActivity-biolink:has_input-biolink:CellularComponent:
+      count: 65
+      provided_by:
+        go-plus:
+          count: 65
+    biolink:MolecularActivity-biolink:has_input-biolink:ChemicalSubstance:
+      count: 277
+      provided_by:
+        go-plus:
+          count: 277
+    biolink:MolecularActivity-biolink:has_input-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:has_input-biolink:NamedThing:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:MolecularActivity-biolink:has_input-biolink:OntologyClass:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:MolecularActivity-biolink:has_input-biolink:Protein:
+      count: 141
+      provided_by:
+        go-plus:
+          count: 141
+    biolink:MolecularActivity-biolink:has_input-biolink:SequenceFeature:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:MolecularActivity-biolink:has_part-biolink:MolecularActivity:
+      count: 51
+      provided_by:
+        go-plus:
+          count: 51
+    biolink:MolecularActivity-biolink:has_part-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:has_part-biolink:OntologyClass:
+      count: 88
+      provided_by:
+        go-plus:
+          count: 88
+    biolink:MolecularActivity-biolink:has_participant-biolink:ChemicalSubstance:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:MolecularActivity-biolink:imports-biolink:ChemicalSubstance:
+      count: 51
+      provided_by:
+        go-plus:
+          count: 51
+    biolink:MolecularActivity-biolink:negatively_regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:negatively_regulates-biolink:OntologyClass:
+      count: 29
+      provided_by:
+        go-plus:
+          count: 29
+    biolink:MolecularActivity-biolink:occurs_in-biolink:AnatomicalEntity:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:MolecularActivity-biolink:occurs_in-biolink:CellularComponent:
+      count: 34
+      provided_by:
+        go-plus:
+          count: 34
+    biolink:MolecularActivity-biolink:only_in_taxon-organism taxon:
+      count: 22
+      provided_by:
+        go-plus:
+          count: 22
+    biolink:MolecularActivity-biolink:part_of-biolink:BiologicalProcess:
+      count: 793
+      provided_by:
+        go-plus:
+          count: 793
+    biolink:MolecularActivity-biolink:part_of-biolink:MolecularActivity:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:MolecularActivity-biolink:part_of-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:MolecularActivity-biolink:positively_regulates-biolink:MolecularActivity:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:MolecularActivity-biolink:positively_regulates-biolink:OntologyClass:
+      count: 19
+      provided_by:
+        go-plus:
+          count: 19
+    biolink:MolecularActivity-biolink:regulated_by-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:regulated_by-biolink:OntologyClass:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:MolecularActivity-biolink:regulates-biolink:BiologicalProcess:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:MolecularActivity-biolink:regulates-biolink:MolecularActivity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:MolecularActivity-biolink:regulates-biolink:OntologyClass:
+      count: 25
+      provided_by:
+        go-plus:
+          count: 25
+    biolink:MolecularActivity-biolink:results_in_transport_across-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:subclass_of-biolink:MolecularActivity:
+      count: 5813
+      provided_by:
+        go-plus:
+          count: 5813
+    biolink:MolecularActivity-biolink:subclass_of-biolink:NamedThing:
+      count: 20
+      provided_by:
+        go-plus:
+          count: 20
+    biolink:MolecularActivity-biolink:subclass_of-biolink:OntologyClass:
+      count: 4005
+      provided_by:
+        go-plus:
+          count: 4005
+    biolink:MolecularActivity-biolink:transports_or_maintains_localization_of-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:transports_or_maintains_localization_of-biolink:ChemicalSubstance:
+      count: 386
+      provided_by:
+        go-plus:
+          count: 386
+    biolink:MolecularActivity-biolink:transports_or_maintains_localization_of-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:MolecularActivity-biolink:transports_or_maintains_localization_of-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:MolecularEntity-biolink:interacts_with-biolink:Protein:
+      count: 1
+      provided_by:
+        intact:
+          count: 1
+    biolink:NamedThing-biolink:capable_of-biolink:MolecularActivity:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:NamedThing-biolink:capable_of-biolink:OntologyClass:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:NamedThing-biolink:capable_of_part_of-biolink:BiologicalProcess:
+      count: 9
+      provided_by:
+        go-plus:
+          count: 9
+    biolink:NamedThing-biolink:enables-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 1
+    biolink:NamedThing-biolink:enables-biolink:OntologyClass:
+      count: 26
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 26
+    biolink:NamedThing-biolink:has_input-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:has_input-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:has_part-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:has_part-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:has_part-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:interacts_with-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        intact:
+          count: 1
+    biolink:NamedThing-biolink:interacts_with-biolink:Drug:
+      count: 4
+      provided_by:
+        intact:
+          count: 4
+    biolink:NamedThing-biolink:interacts_with-biolink:NamedThing:
+      count: 7668
+      provided_by:
+        STRING:
+          count: 7664
+        intact:
+          count: 4
+    biolink:NamedThing-biolink:interacts_with-biolink:Protein:
+      count: 242819
+      provided_by:
+        STRING:
+          count: 242778
+        intact:
+          count: 41
+    biolink:NamedThing-biolink:involved_in-biolink:BiologicalProcess:
+      count: 37
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 37
+    biolink:NamedThing-biolink:only_in_taxon-organism taxon:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:part_of-biolink:BiologicalProcess:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:part_of-biolink:CellularComponent:
+      count: 63
+      provided_by:
+        go-plus:
+          count: 27
+        sars_cov_2_gene_annot:
+          count: 36
+    biolink:NamedThing-biolink:related_to-biolink:NamedThing:
+      count: 3701
+      provided_by:
+        unknown:
+          count: 3701
+    biolink:NamedThing-biolink:related_to-biolink:Publication:
+      count: 456461
+      provided_by:
+        SciBite-CORD-19:
+          count: 456461
+    biolink:NamedThing-biolink:subclass_of-biolink:CellularComponent:
+      count: 38
+      provided_by:
+        go-plus:
+          count: 38
+    biolink:NamedThing-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:NamedThing-biolink:subclass_of-biolink:MolecularActivity:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:NamedThing-biolink:subclass_of-biolink:NamedThing:
+      count: 13
+      provided_by:
+        go-plus:
+          count: 13
+    biolink:NamedThing-biolink:subclass_of-biolink:OntologyClass:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:NamedThing-biolink:subclass_of-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:adjacent_to-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:develops_from-biolink:OntologyClass:
+      count: 107
+      provided_by:
+        go-plus:
+          count: 107
+    biolink:OntologyClass-biolink:directly_negatively_regulates-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:OntologyClass-biolink:directly_regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:directly_regulates-biolink:OntologyClass:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:OntologyClass-biolink:exports-biolink:ChemicalSubstance:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:OntologyClass-biolink:has_cross_section-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:OntologyClass-biolink:has_input-biolink:CellularComponent:
+      count: 24
+      provided_by:
+        go-plus:
+          count: 24
+    biolink:OntologyClass-biolink:has_input-biolink:ChemicalSubstance:
+      count: 235
+      provided_by:
+        go-plus:
+          count: 235
+    biolink:OntologyClass-biolink:has_input-biolink:NamedThing:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:OntologyClass-biolink:has_input-biolink:OntologyClass:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:OntologyClass-biolink:has_input-biolink:Protein:
+      count: 146
+      provided_by:
+        go-plus:
+          count: 146
+    biolink:OntologyClass-biolink:has_input-biolink:SequenceFeature:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:has_output-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:has_part-biolink:MolecularActivity:
+      count: 10
+      provided_by:
+        go-plus:
+          count: 10
+    biolink:OntologyClass-biolink:has_part-biolink:OntologyClass:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:OntologyClass-biolink:has_participant-biolink:OntologyClass:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:OntologyClass-biolink:has_participant-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:imports-biolink:ChemicalSubstance:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:OntologyClass-biolink:interacts_with-biolink:OntologyClass:
+      count: 58
+      provided_by:
+        zhou_host_proteins:
+          count: 58
+    biolink:OntologyClass-biolink:interacts_with-biolink:OrganismalEntity:
+      count: 63
+      provided_by:
+        zhou_host_proteins:
+          count: 63
+    biolink:OntologyClass-biolink:interacts_with-unknown:
+      count: 3048
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 3048
+    biolink:OntologyClass-biolink:inverseOf-biolink:OntologyClass:
+      count: 40
+      provided_by:
+        go-plus:
+          count: 40
+    biolink:OntologyClass-biolink:located_in-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:OntologyClass-biolink:negatively_regulates-biolink:OntologyClass:
+      count: 12
+      provided_by:
+        go-plus:
+          count: 12
+    biolink:OntologyClass-biolink:occurs_in-biolink:CellularComponent:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:OntologyClass-biolink:occurs_in-biolink:OntologyClass:
+      count: 14
+      provided_by:
+        go-plus:
+          count: 14
+    biolink:OntologyClass-biolink:only_in_taxon-organism taxon:
+      count: 11
+      provided_by:
+        go-plus:
+          count: 11
+    biolink:OntologyClass-biolink:part_of-biolink:BiologicalProcess:
+      count: 275
+      provided_by:
+        go-plus:
+          count: 275
+    biolink:OntologyClass-biolink:part_of-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:part_of-biolink:OntologyClass:
+      count: 201
+      provided_by:
+        go-plus:
+          count: 201
+    biolink:OntologyClass-biolink:participates_in-biolink:OntologyClass:
+      count: 7
+      provided_by:
+        go-plus:
+          count: 7
+    biolink:OntologyClass-biolink:positively_regulates-biolink:OntologyClass:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:OntologyClass-biolink:realizes-unknown:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:OntologyClass-biolink:regulates-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:regulates-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:OntologyClass-biolink:related_to-biolink:Publication:
+      count: 6211819
+      provided_by:
+        SciBite-CORD-19:
+          count: 6211819
+    biolink:OntologyClass-biolink:results_in_transport_across-biolink:CellularComponent:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:subPropertyOf-biolink:OntologyClass:
+      count: 265
+      provided_by:
+        go-plus:
+          count: 263
+        mondo:
+          count: 2
+    biolink:OntologyClass-biolink:subclass_of-biolink:AnatomicalEntity:
+      count: 8
+      provided_by:
+        go-plus:
+          count: 8
+    biolink:OntologyClass-biolink:subclass_of-biolink:Cell:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 3
+      provided_by:
+        go-plus:
+          count: 3
+    biolink:OntologyClass-biolink:subclass_of-biolink:MolecularActivity:
+      count: 1502
+      provided_by:
+        go-plus:
+          count: 1502
+    biolink:OntologyClass-biolink:subclass_of-biolink:NamedThing:
+      count: 28
+      provided_by:
+        go-plus:
+          count: 28
+    biolink:OntologyClass-biolink:subclass_of-biolink:OntologyClass:
+      count: 2870
+      provided_by:
+        go-plus:
+          count: 2870
+    biolink:OntologyClass-biolink:subclass_of-unknown:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:OntologyClass-biolink:transports_or_maintains_localization_of-biolink:ChemicalSubstance:
+      count: 59
+      provided_by:
+        go-plus:
+          count: 59
+    biolink:OntologyClass-biolink:transports_or_maintains_localization_of-biolink:NamedThing:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:OntologyClass-biolink:transports_or_maintains_localization_of-biolink:OntologyClass:
+      count: 4
+      provided_by:
+        go-plus:
+          count: 4
+    biolink:OntologyClass-biolink:type-biolink:OntologyClass:
+      count: 18
+      provided_by:
+        go-plus:
+          count: 18
+    biolink:PhenotypicFeature-biolink:related_to-biolink:Publication:
+      count: 1111850
+      provided_by:
+        SciBite-CORD-19:
+          count: 1111850
+    biolink:PhenotypicFeature-biolink:subclass_of-biolink:PhenotypicFeature:
+      count: 19395
+      provided_by:
+        hp:
+          count: 19395
+    biolink:Protein-biolink:capable_of-biolink:MolecularActivity:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:Protein-biolink:capable_of-biolink:OntologyClass:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:Protein-biolink:derives_from-biolink:ChemicalSubstance:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:Protein-biolink:enables-biolink:OntologyClass:
+      count: 29
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 29
+    biolink:Protein-biolink:has_gene_product-biolink:Protein:
+      count: 1
+      provided_by:
+        NCBI:
+          count: 1
+    biolink:Protein-biolink:has_part-biolink:Protein:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:Protein-biolink:has_part-unknown:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:Protein-biolink:interacts_with-biolink:ChemicalSubstance:
+      count: 6
+      provided_by:
+        intact:
+          count: 6
+    biolink:Protein-biolink:interacts_with-biolink:Drug:
+      count: 6
+      provided_by:
+        intact:
+          count: 6
+    biolink:Protein-biolink:interacts_with-biolink:NamedThing:
+      count: 242791
+      provided_by:
+        STRING:
+          count: 242778
+        intact:
+          count: 13
+    biolink:Protein-biolink:interacts_with-biolink:Protein:
+      count: 11266955
+      provided_by:
+        STRING:
+          count: 11266234
+        intact:
+          count: 721
+    biolink:Protein-biolink:interacts_with-biolink:RNA:
+      count: 11
+      provided_by:
+        intact:
+          count: 11
+    biolink:Protein-biolink:involved_in-biolink:BiologicalProcess:
+      count: 49
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 49
+    biolink:Protein-biolink:only_in_taxon-organism taxon:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    biolink:Protein-biolink:output_of-biolink:BiologicalProcess:
+      count: 57
+      provided_by:
+        go-plus:
+          count: 57
+    biolink:Protein-biolink:part_of-biolink:CellularComponent:
+      count: 44
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 44
+    biolink:Protein-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 178
+      provided_by:
+        go-plus:
+          count: 178
+    biolink:Protein-biolink:subclass_of-biolink:NamedThing:
+      count: 174
+      provided_by:
+        go-plus:
+          count: 174
+    biolink:Protein-biolink:subclass_of-biolink:Protein:
+      count: 269
+      provided_by:
+        go-plus:
+          count: 269
+    biolink:Protein-biolink:subclass_of-unknown:
+      count: 1
+      provided_by:
+        go-plus:
+          count: 1
+    biolink:RNA-biolink:interacts_with-biolink:Protein:
+      count: 15
+      provided_by:
+        intact:
+          count: 15
+    biolink:RNA-biolink:interacts_with-biolink:RNA:
+      count: 2
+      provided_by:
+        intact:
+          count: 2
+    biolink:SequenceFeature-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 5
+      provided_by:
+        go-plus:
+          count: 5
+    biolink:SequenceFeature-biolink:subclass_of-biolink:SequenceFeature:
+      count: 46
+      provided_by:
+        go-plus:
+          count: 46
+    organism taxon-biolink:in_taxon-organism taxon:
+      count: 181
+      provided_by:
+        go-plus:
+          count: 181
+    organism taxon-biolink:subclass_of-organism taxon:
+      count: 219
+      provided_by:
+        go-plus:
+          count: 219
+    organism taxon-biolink:subclass_of-unknown:
+      count: 2
+      provided_by:
+        go-plus:
+          count: 2
+    unknown-biolink:enables-biolink:MolecularActivity:
+      count: 2
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 2
+    unknown-biolink:enables-biolink:OntologyClass:
+      count: 688
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 688
+    unknown-biolink:involved_in-biolink:BiologicalProcess:
+      count: 641
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 641
+    unknown-biolink:part_of-biolink:CellularComponent:
+      count: 555
+      provided_by:
+        sars_cov_2_gene_annot:
+          count: 555
+    unknown-biolink:subclass_of-biolink:AnatomicalEntity:
+      count: 1
+      provided_by:
+        mondo:
+          count: 1
+    unknown-biolink:subclass_of-biolink:Cell:
+      count: 42
+      provided_by:
+        mondo:
+          count: 42
+    unknown-biolink:subclass_of-biolink:OntologyClass:
+      count: 11
+      provided_by:
+        mondo:
+          count: 11
+    unknown-biolink:subclass_of-unknown:
+      count: 16
+      provided_by:
+        mondo:
+          count: 16
+  edge_labels:
+    - biolink:acts_on_population_of
+    - biolink:adjacent_to
+    - biolink:anterior_to
+    - biolink:anteriorly_connected_to
+    - biolink:attaches_to
+    - biolink:attaches_to_part_of
+    - biolink:bearer_of
+    - biolink:bounding_layer_of
+    - biolink:branching_part_of
+    - biolink:capable_of
+    - biolink:capable_of_part_of
+    - biolink:causally_upstream_of
+    - biolink:channel_for
+    - biolink:channels_from
+    - biolink:channels_into
+    - biolink:coincident_with
+    - biolink:composed_primarily_of
+    - biolink:conduit_for
+    - biolink:confers_advantage_in
+    - biolink:connected_to
+    - biolink:connects
+    - biolink:contains
+    - biolink:contains_process
+    - biolink:continuous_with
+    - biolink:contributes_to_morphology_of
+    - biolink:deep_to
+    - biolink:derives_from
+    - biolink:developmentally_induced_by
+    - biolink:developmentally_replaces
+    - biolink:develops_from
+    - biolink:develops_from_part_of
+    - biolink:develops_in
+    - biolink:directly_develops_from
+    - biolink:directly_negatively_regulates
+    - biolink:directly_positively_regulates
+    - biolink:directly_regulates
+    - biolink:disease_arises_from_feature
+    - biolink:disease_arises_from_structure
+    - biolink:disease_caused_by_disruption_of
+    - biolink:disease_causes_dysfunction_of
+    - biolink:disease_causes_feature
+    - biolink:disease_disrupts
+    - biolink:disease_has_basis_in_accumulation_of
+    - biolink:disease_has_basis_in_development_of
+    - biolink:disease_has_basis_in_dysfunction_of
+    - biolink:disease_has_feature
+    - biolink:disease_has_inflammation_site
+    - biolink:disease_has_location
+    - biolink:disease_has_major_feature
+    - biolink:disease_responds_to
+    - biolink:disease_shares_features_of
+    - biolink:disease_triggers
+    - biolink:distal_to
+    - biolink:distally_connected_to
+    - biolink:distalmost_part_of
+    - biolink:dorsal_to
+    - biolink:drains
+    - biolink:enables
+    - biolink:ends
+    - biolink:ends_during
+    - biolink:ends_with
+    - biolink:existence_ends_during
+    - biolink:existence_ends_during_or_before
+    - biolink:existence_ends_with
+    - biolink:existence_starts_and_ends_during
+    - biolink:existence_starts_during
+    - biolink:existence_starts_during_or_after
+    - biolink:existence_starts_with
+    - biolink:exports
+    - biolink:extends_fibers_into
+    - biolink:filtered_through
+    - biolink:functionally_related_to
+    - biolink:happens_during
+    - biolink:has_boundary
+    - biolink:has_component
+    - biolink:has_cross_section
+    - biolink:has_developmental_contribution_from
+    - biolink:has_end_location
+    - biolink:has_fused_element
+    - biolink:has_gene_product
+    - biolink:has_input
+    - biolink:has_intermediate
+    - biolink:has_member
+    - biolink:has_modifier
+    - biolink:has_muscle_antagonist
+    - biolink:has_muscle_insertion
+    - biolink:has_muscle_origin
+    - biolink:has_onset
+    - biolink:has_output
+    - biolink:has_part
+    - biolink:has_participant
+    - biolink:has_potential_to_develop_into
+    - biolink:has_potential_to_developmentally_contribute_to
+    - biolink:has_primary_input
+    - biolink:has_primary_input_or_output
+    - biolink:has_primary_output
+    - biolink:has_quality
+    - biolink:has_role
+    - biolink:has_skeleton
+    - biolink:has_start_location
+    - biolink:has_target_end_location
+    - biolink:has_target_start_location
+    - biolink:immediate_transformation_of
+    - biolink:immediately_causally_upstream_of
+    - biolink:immediately_deep_to
+    - biolink:immediately_preceded_by
+    - biolink:immediately_precedes
+    - biolink:immediately_superficial_to
+    - biolink:imports
+    - biolink:in_anterior_side_of
+    - biolink:in_deep_part_of
+    - biolink:in_distal_side_of
+    - biolink:in_dorsal_side_of
+    - biolink:in_lateral_side_of
+    - biolink:in_left_side_of
+    - biolink:in_posterior_side_of
+    - biolink:in_proximal_side_of
+    - biolink:in_right_side_of
+    - biolink:in_superficial_part_of
+    - biolink:in_taxon
+    - biolink:in_ventral_side_of
+    - biolink:indirectly_supplies
+    - biolink:innervated_by
+    - biolink:innervates
+    - biolink:interacts_with
+    - biolink:intersects_midsagittal_plane_of
+    - biolink:inverseOf
+    - biolink:involved_in
+    - biolink:layer_part_of
+    - biolink:located_in
+    - biolink:location_of
+    - biolink:lumen_of
+    - biolink:luminal_space_of
+    - biolink:molecularly_interacts_with
+    - biolink:negatively_regulates
+    - biolink:occurs_in
+    - biolink:only_in_taxon
+    - biolink:output_of
+    - biolink:overlaps
+    - biolink:part_of
+    - biolink:part_of_progression_of_disease
+    - biolink:participates_in
+    - biolink:positively_regulates
+    - biolink:postaxialmost_part_of
+    - biolink:posterior_to
+    - biolink:posteriorly_connected_to
+    - biolink:preaxialmost_part_of
+    - biolink:preceded_by
+    - biolink:precedes
+    - biolink:predisposes_towards
+    - biolink:process_has_causal_agent
+    - biolink:produced_by
+    - biolink:produces
+    - biolink:protects
+    - biolink:proximal_to
+    - biolink:proximally_connected_to
+    - biolink:proximalmost_part_of
+    - biolink:realized_in
+    - biolink:realized_in_response_to
+    - biolink:realized_in_response_to_stimulus
+    - biolink:realizes
+    - biolink:regulated_by
+    - biolink:regulates
+    - biolink:regulates_levels_of
+    - biolink:related_to
+    - biolink:results_in
+    - biolink:results_in_acquisition_of_features_of
+    - biolink:results_in_assembly_of
+    - biolink:results_in_commitment_to
+    - biolink:results_in_determination_of
+    - biolink:results_in_development_of
+    - biolink:results_in_developmental_progression_of
+    - biolink:results_in_disassembly_of
+    - biolink:results_in_distribution_of
+    - biolink:results_in_fission_of
+    - biolink:results_in_formation_of
+    - biolink:results_in_fusion_of
+    - biolink:results_in_growth_of
+    - biolink:results_in_maintenance_of
+    - biolink:results_in_maturation_of
+    - biolink:results_in_morphogenesis_of
+    - biolink:results_in_movement_of
+    - biolink:results_in_organization_of
+    - biolink:results_in_remodeling_of
+    - biolink:results_in_specification_of
+    - biolink:results_in_structural_organization_of
+    - biolink:results_in_transport_across
+    - biolink:results_in_transport_along
+    - biolink:results_in_transport_to_from_or_in
+    - biolink:serially_homologous_to
+    - biolink:sexually_homologous_to
+    - biolink:simultaneous_with
+    - biolink:site_of
+    - biolink:skeleton_of
+    - biolink:starts
+    - biolink:starts_with
+    - biolink:subPropertyOf
+    - biolink:subclass_of
+    - biolink:subdivision_of
+    - biolink:superficial_to
+    - biolink:supplies
+    - biolink:surrounded_by
+    - biolink:surrounds
+    - biolink:synapsed_by
+    - biolink:transformation_of
+    - biolink:transmitted_by
+    - biolink:transports_or_maintains_localization_of
+    - biolink:tributary_of
+    - biolink:trunk_part_of
+    - biolink:type
+    - biolink:ventral_to
+  provided_by:
+    - ChEMBL SARS-CoV-2 subset
+    - NCBI
+    - STRING
+    - SciBite-CORD-19
+    - drug_central
+    - go-plus
+    - hp
+    - intact
+    - mondo
+    - pharmgkb
+    - sars_cov_2_gene_annot
+    - ttd
+    - unknown
+    - zhou_host_proteins
+  total_edges: 21389105
+graph_name: merged_graph
+node_stats:
+  count_by_category:
+    biolink:AnatomicalEntity:
+      count: 4656
+      provided_by:
+        go-plus:
+          count: 4656
+    biolink:Assay:
+      count: 48
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 48
+    biolink:BiologicalProcess:
+      count: 30530
+      provided_by:
+        SciBite-CORD-19:
+          count: 5280
+        go-plus:
+          count: 30530
+        sars_cov_2_gene_annot:
+          count: 57
+    biolink:Cell:
+      count: 703
+      provided_by:
+        go-plus:
+          count: 703
+    biolink:CellularComponent:
+      count: 4464
+      provided_by:
+        SciBite-CORD-19:
+          count: 1350
+        go-plus:
+          count: 4464
+        sars_cov_2_gene_annot:
+          count: 28
+    biolink:ChemicalSubstance:
+      count: 30018
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 6900
+        SciBite-CORD-19:
+          count: 2774
+        go-plus:
+          count: 23118
+        intact:
+          count: 8
+        pharmgkb:
+          count: 112
+    biolink:Disease:
+      count: 24227
+      provided_by:
+        mondo:
+          count: 24227
+    biolink:Drug:
+      count: 32227
+      provided_by:
+        drug_central:
+          count: 2211
+        go-plus:
+          count: 118
+        intact:
+          count: 33
+        pharmgkb:
+          count: 1116
+        ttd:
+          count: 28870
+    biolink:Gene:
+      count: 19239
+      provided_by:
+        STRING:
+          count: 18759
+        SciBite-CORD-19:
+          count: 113
+        drug_central:
+          count: 348
+        intact:
+          count: 111
+        pharmgkb:
+          count: 1314
+        ttd:
+          count: 55
+        zhou_host_proteins:
+          count: 119
+    biolink:MolecularActivity:
+      count: 12230
+      provided_by:
+        SciBite-CORD-19:
+          count: 3294
+        go-plus:
+          count: 12230
+        sars_cov_2_gene_annot:
+          count: 36
+    biolink:MolecularEntity:
+      count: 1
+      provided_by:
+        intact:
+          count: 1
+    biolink:NamedThing:
+      count: 3908
+      provided_by:
+        STRING:
+          count: 169
+        SciBite-CORD-19:
+          count: 255
+        drug_central:
+          count: 47
+        go-plus:
+          count: 52
+        intact:
+          count: 35
+        pharmgkb:
+          count: 34
+        sars_cov_2_gene_annot:
+          count: 5
+        ttd:
+          count: 7
+        unknown:
+          count: 3444
+    biolink:OntologyClass:
+      count: 62428
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 2774
+        SciBite-CORD-19:
+          count: 58535
+        go-plus:
+          count: 14023
+        hp:
+          count: 5565
+        mondo:
+          count: 50
+        sars_cov_2_gene_annot:
+          count: 81
+        zhou_host_proteins:
+          count: 114
+    biolink:OrganismalEntity:
+      count: 6
+      provided_by:
+        SciBite-CORD-19:
+          count: 1
+        zhou_host_proteins:
+          count: 6
+    biolink:PhenotypicFeature:
+      count: 15530
+      provided_by:
+        SciBite-CORD-19:
+          count: 5559
+        hp:
+          count: 15530
+    biolink:Protein:
+      count: 20167
+      provided_by:
+        STRING:
+          count: 19233
+        drug_central:
+          count: 1542
+        go-plus:
+          count: 385
+        intact:
+          count: 2181
+        pharmgkb:
+          count: 979
+        sars_cov_2_gene_annot:
+          count: 32
+        ttd:
+          count: 219
+    biolink:Publication:
+      count: 129930
+      provided_by:
+        ChEMBL SARS-CoV-2 subset:
+          count: 8
+        SciBite-CORD-19:
+          count: 129922
+    biolink:RNA:
+      count: 17
+      provided_by:
+        intact:
+          count: 17
+    biolink:SequenceFeature:
+      count: 47
+      provided_by:
+        go-plus:
+          count: 47
+    organism taxon:
+      count: 197
+      provided_by:
+        go-plus:
+          count: 197
+    unknown:
+      count: 4498
+  node_categories:
+    - biolink:AnatomicalEntity
+    - biolink:Assay
+    - biolink:BiologicalProcess
+    - biolink:Cell
+    - biolink:CellularComponent
+    - biolink:ChemicalSubstance
+    - biolink:Disease
+    - biolink:Drug
+    - biolink:Gene
+    - biolink:MolecularActivity
+    - biolink:MolecularEntity
+    - biolink:NamedThing
+    - biolink:OntologyClass
+    - biolink:OrganismalEntity
+    - biolink:PhenotypicFeature
+    - biolink:Protein
+    - biolink:Publication
+    - biolink:RNA
+    - biolink:SequenceFeature
+    - organism taxon
+  provided_by:
+    - ChEMBL SARS-CoV-2 subset
+    - STRING
+    - SciBite-CORD-19
+    - drug_central
+    - go-plus
+    - hp
+    - intact
+    - mondo
+    - pharmgkb
+    - sars_cov_2_gene_annot
+    - ttd
+    - unknown
+    - zhou_host_proteins
+  total_nodes: 375365

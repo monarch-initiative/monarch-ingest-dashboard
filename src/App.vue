@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="page-wrapper">
 
     <navbar />
 
@@ -21,25 +21,21 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
+@import "~@/style/variables";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #f8f8fc;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#app.page-wrapper {
+  padding-top: $navbar-height;
+  min-height: 100%;
+  min-width: 100%;
 }
 </style>

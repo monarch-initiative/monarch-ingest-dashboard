@@ -3,37 +3,38 @@
 
     <div class="sidebar-content">
 
-      <div class="sidebar-header">
-        <font-awesome-icon :icon="['fas', 'chart-pie']"/>
-        Charts
-      </div>
 
       <b-nav class="side-nav-item">
-        <ul>
 
-          <li>
-            <b-nav-item>
-              <font-awesome-icon :icon="['fas', 'chart-bar']"/>
-              Categories
-            </b-nav-item>
-          </li>
+        <li>
+          <b-nav-item to="#overview">
+            <font-awesome-icon :icon="['fas', 'chart-pie']"/>
+            Overview
+          </b-nav-item>
+        </li>
 
-          <li>
-            <b-nav-item>
-              <font-awesome-icon :icon="['fas', 'hamburger']"/>
-              Sankey
-            </b-nav-item>
-          </li>
+        <li>
+          <b-nav-item to="#categories">
+            <font-awesome-icon :icon="['fas', 'chart-bar']"/>
+            Categories
+          </b-nav-item>
+        </li>
 
-          <li>
-            <b-nav-item>
-              <font-awesome-icon :icon="['fas', 'fire']"/>
-              Heat map
-            </b-nav-item>
-          </li>
+        <li>
+          <b-nav-item to="#heatmap">
+            <font-awesome-icon :icon="['fas', 'fire']"/>
+            Sources
+          </b-nav-item>
+        </li>
 
-        </ul>
-    </b-nav>
+        <li>
+          <b-nav-item to="#sankey">
+            <font-awesome-icon :icon="['fas', 'hamburger']"/>
+            Flow
+          </b-nav-item>
+        </li>
+
+      </b-nav>
 
     </div>
 
@@ -48,36 +49,51 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
+
+  @import "~@/style/variables";
 
   .dash-sidebar {
-    background: #f8f8fc;
+    background: white;
     bottom: 0;
     left: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     position: fixed;
-    width: 200px;
-    top: 55px;
+    width: $sidebar-width;
+    top: $navbar-height;
     z-index: 100;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
-  .dash-sidebar ul {
+  .side-nav-item ul {
     list-style-type: none;
-    text-align: center;
   }
-  .dash-sidebar a {
-    color: black !important;
+
+  .side-nav-item li {
+    width: 100%;
   }
-  .sidebar-header {
+
+  .side-nav-item a {
+    color: #2e4856 !important;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding: 12px 12px !important;
+    /* color: #42b983; */
+  }
+  .side-nav-item a.router-link-active {
+    background: #dedee7;
+  }
+  .side-nav-item a:hover {
+    background: #dedee7;
+  }
+
+  .sidebar-header {
+    color: #2e4856;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f8fafa;
     box-shadow: 0 1px 1px -1px #15556A;
   }
-  .sidebar-content {
-    padding-top: 10px;
-  }
-  .side-nav-item {
-    padding: 5px 0 0 0 !important;
-  }
+
+
 </style>

@@ -22,6 +22,11 @@ npm run dev
 npm run build
 ```
 
+### Deploy to github pages
+```
+./deploy.sh
+```
+
 ### Lints files
 ```
 npm run lint

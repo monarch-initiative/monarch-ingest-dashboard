@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faChartPie, faChartBar, faHamburger, faFire } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faChartPie, faChartBar,
+  faHamburger, faFire, faHandSparkles } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue';
@@ -15,6 +16,7 @@ library.add(faChartPie);
 library.add(faChartBar);
 library.add(faHamburger);
 library.add(faFire);
+library.add(faHandSparkles);
 
 
 Vue.config.productionTip = false;

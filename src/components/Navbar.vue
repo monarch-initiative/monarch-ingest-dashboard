@@ -1,6 +1,6 @@
 <template>
 
-  <b-navbar id="dash-navbar" type="dark" variant="info" fixed="true" toggleable="sm">
+  <b-navbar id="dash-navbar" class="fixed-top" type="dark" variant="info" fixed="true" toggleable="sm">
 
     <b-navbar-brand to="/">KG COVID-19 Dashboard</b-navbar-brand>
 
@@ -17,6 +17,13 @@
           target="_blank"
         >
           <font-awesome-icon :icon="['fab', 'github']"/>
+        </b-nav-item>
+
+        <b-nav-item
+          href="http://kg-hub-rdf.berkeleybop.io/blazegraph/#query"
+          target="_blank"
+        >
+          <font-awesome-icon :icon="['fas', 'hand-sparkles']"/>
         </b-nav-item>
 
         <b-nav-item
@@ -40,9 +47,11 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="scss">
+  @import "~@/style/variables";
+
   #dash-navbar {
-    height: 55px;
+    height: $navbar-height;
   }
   .bg-info {
     background-image: -webkit-linear-gradient(left, #0B556B 0%, #232733 100%) !important;
