@@ -35,7 +35,11 @@ export default {
 
 #app.page-wrapper {
   padding-top: $navbar-height;
-  min-height: 100%;
+  min-height: 100vh;
   min-width: 100%;
+}
+
+.card-shadow {
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
 }
 </style>

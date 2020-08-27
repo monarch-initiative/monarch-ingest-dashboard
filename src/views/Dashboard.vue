@@ -2,7 +2,7 @@
 
   <div class="dashboard">
 
-    <sidebar />
+    <sidebar/>
 
     <div v-show="!statsFetched" class="dash-spinner">
       <h4>Fetching Data</h4>
@@ -14,6 +14,107 @@
     </div>
 
     <template v-if="statsFetched">
+
+      <div id="overview">
+
+        <b-card-group class="overview-cards" deck>
+
+          <b-card class="card-shadow border-left-primary" align="left">
+            <b-row align-v="center">
+              <b-col cols="9">
+                <b-card-text>
+                  <div class="card-title node-title">
+                    Nodes
+                  </div>
+                  <div class="overview-text">
+                    Count: {{nodeCount}}
+                    <br>
+                    Categories: {{nodeCategories}}
+                  </div>
+                </b-card-text>
+              </b-col>
+              <b-col>
+                <font-awesome-icon
+                  :icon="['fas', 'virus']"
+                  :style="{ color: 'grey' }"
+                  size="2x"
+                />
+              </b-col>
+            </b-row>
+          </b-card>
+
+          <b-card class="card-shadow border-left-info" align="left">
+            <b-row align-v="center">
+              <b-col cols="9">
+                <b-card-text>
+                  <div class="card-title edge-title">
+                    Edges
+                  </div>
+                  <div class="overview-text">
+                    Count: {{edgeCount}}
+                    <br>
+                    Categories: {{edgeCategories}}
+                  </div>
+                </b-card-text>
+              </b-col>
+              <b-col>
+                <font-awesome-icon
+                  :icon="['fas', 'people-arrows']"
+                  :style="{ color: 'grey' }"
+                  size="2x"
+                />
+              </b-col>
+            </b-row>
+          </b-card>
+
+          <b-card class="card-shadow border-left-success" align="left">
+            <b-row align-v="center">
+              <b-col cols="9">
+                <b-card-text>
+                  <div class="card-title source-title">
+                    Sources
+                  </div>
+                  <div class="overview-text">
+                    {{sourceCount}}
+                    <br><br>
+                  </div>
+                </b-card-text>
+              </b-col>
+              <b-col>
+                <font-awesome-icon
+                  :icon="['fas', 'database']"
+                  :style="{ color: 'grey' }"
+                  size="2x"
+                />
+              </b-col>
+            </b-row>
+          </b-card>
+
+          <b-card class="card-shadow border-left-warning" align="left">
+            <b-row align-v="center">
+              <b-col cols="9">
+                <b-card-text>
+                  <div class="card-title date-title">
+                    Release
+                  </div>
+                  <div class="overview-text">
+                    {{ingestDate}}
+                    <br><br>
+                  </div>
+                </b-card-text>
+              </b-col>
+              <b-col>
+                <font-awesome-icon
+                  :icon="['fas', 'calendar-day']"
+                  :style="{ color: 'grey' }"
+                  size="2x"
+                />
+              </b-col>
+            </b-row>
+          </b-card>
+
+        </b-card-group>
+      </div>
 
       <Categories :stats="stats"/>
       <Heatmap :stats="stats"/>
@@ -34,7 +135,6 @@ import Sidebar from '@/components/Sidebar.vue';
 import yaml from 'js-yaml';
 import axios from 'axios';
 
-
 export default {
   name: 'Home',
   components: {
@@ -47,12 +147,28 @@ export default {
     return {
       stats: null,
       statsFetched: false,
+      nodeCategories: null,
+      nodeCount: null,
+      edgeCategories: null,
+      edgeCount: null,
+      sourceCount: null,
+      ingestDate: '9/01/2020', // TODO
     };
   },
   async mounted() {
-    await new Promise((r) => setTimeout(r, 5000));
+    // no idea why but this changes the transition speed from different routes
+    // comment out and go from 'About' to the homepage to determine what you
+    // like better
+    await new Promise((r) => setTimeout(r, 0));
+
     await this.getStats();
     this.statsFetched = true;
+
+    this.nodeCount = this.stats.node_stats.total_nodes.toLocaleString();
+    this.nodeCategories = this.stats.node_stats.node_categories.length.toLocaleString();
+    this.edgeCount = this.stats.edge_stats.total_edges.toLocaleString();
+    this.edgeCategories = this.stats.edge_stats.edge_labels.length.toLocaleString();
+    this.sourceCount = this.stats.edge_stats.provided_by.length.toLocaleString();
   },
 
   methods: {
@@ -69,8 +185,7 @@ export default {
     },
 
     async fetchStats() {
-      // const graphStats = 'https://kg-hub.berkeleybop.io/merged_graph_stats.yaml';
-      const graphStats = '/test.yaml';
+      const graphStats = 'https://kg-hub.berkeleybop.io/merged_graph_stats.yaml';
       const statsYaml = await axios.get(graphStats);
 
       let statsData = null;
@@ -97,4 +212,57 @@ export default {
   .dashboard {
     padding-left: $sidebar-width;
   }
+
+  .overview-cards {
+    padding: 30px 10px 0 40px;
+    width: 100%;
+  }
+
+  .overview-text {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .border-left-primary {
+    border-left: .25rem solid theme-color("primary") !important;
+  }
+
+  .border-left-info {
+    border-left: .25rem solid theme-color("info") !important;
+  }
+
+  .border-left-success {
+    border-left: .25rem solid theme-color("success") !important;
+  }
+
+  .border-left-warning {
+    border-left: .25rem solid #ba9c17 !important;
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: .25rem;
+  }
+
+  .node-title {
+    color: theme-color("primary");
+  }
+
+  .edge-title {
+    color: theme-color("info");
+  }
+
+  .source-title {
+    color: theme-color("success");
+  }
+
+  .date-title {
+    color: #ba9c17;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
 </style>

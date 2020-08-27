@@ -1,3 +1,5 @@
+<div class="md-content">
+
 ### KG-COVID-19 Project
 
 The [KG-Covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19/) outputs a knowledge graph
@@ -109,10 +111,16 @@ https://github.com/Knowledge-Graph-Hub/kg-covid-19/tree/master/queries/sparql
 **Contributing:**
 - [Here](https://github.com/Knowledge-Graph-Hub/kg-covid-19/wiki/How-to-help) is a more detailed description, and instructions on how to help.
 
+</div>
 
 <style scoped>
   .vmark {
     margin: 2em 5em 2em 5em;
     text-align: left;
+  }
+  .md-content {
+    padding: 30px 100px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
+    background-color: white;
   }
 </style>

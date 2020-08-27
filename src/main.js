@@ -2,7 +2,8 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faChartPie, faChartBar,
-  faHamburger, faFire, faHandSparkles } from '@fortawesome/free-solid-svg-icons';
+  faHamburger, faFire, faHandSparkles, faVirus,
+  faPeopleArrows, faDatabase, faCalendarDay } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue';
@@ -17,7 +18,10 @@ library.add(faChartBar);
 library.add(faHamburger);
 library.add(faFire);
 library.add(faHandSparkles);
-
+library.add(faVirus);
+library.add(faPeopleArrows);
+library.add(faDatabase);
+library.add(faCalendarDay);
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
