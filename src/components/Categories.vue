@@ -6,7 +6,7 @@
 
       <b-card class="card-shadow first-card" header-tag="header" align="center">
         <template v-slot:header>
-          <div class="card-title node-title">
+          <div class="card-title graph-title">
             Node Categories
           </div>
         </template>
@@ -15,7 +15,7 @@
 
       <b-card class="card-shadow" header-tag="header" align="center">
         <template v-slot:header>
-          <div class="card-title edge-title">
+          <div class="card-title graph-title">
             Edge Categories (Top 20, Log Scale)
           </div>
         </template>
@@ -133,7 +133,6 @@ export default {
       };
 
       // Get data from this.stats
-
       const data = Object.keys(this.stats.node_stats.count_by_category).map((cat) => {
         const category = cat.replace('biolink:', '');
         const catCount = this.stats.node_stats.count_by_category[cat].count;
@@ -200,6 +199,10 @@ export default {
     padding-top: 20px;
   }
 
+  .card {
+    min-width: 400px !important;
+  }
+
   .chart {
     margin: auto;
     width: 100%;
@@ -214,14 +217,7 @@ export default {
     margin-right: 100px !important;
   }
 
-  .edge-title {
-    color: #15556A;
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 0 !important;
-  }
-
-  .node-title {
+  .graph-title {
     color: #15556A;
     font-weight: bold;
     font-size: 18px;

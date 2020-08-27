@@ -98,7 +98,7 @@
                     Release
                   </div>
                   <div class="overview-text">
-                    {{ingestDate}}
+                    {{releaseDate}}
                     <br><br>
                   </div>
                 </b-card-text>
@@ -152,7 +152,7 @@ export default {
       edgeCategories: null,
       edgeCount: null,
       sourceCount: null,
-      ingestDate: '9/01/2020', // TODO
+      releaseDate: '9/01/2020', // TODO
     };
   },
   async mounted() {
@@ -179,14 +179,22 @@ export default {
         const stats = await this.fetchStats();
         this.stats = stats;
         window.sessionStorage.setItem('stats', JSON.stringify(stats));
+        window.sessionStorage.setItem('releaseDate', JSON.stringify(this.releaseDate));
       } else if (window.sessionStorage.getItem('stats') !== null) {
         this.stats = JSON.parse(window.sessionStorage.getItem('stats'));
+        this.releaseDate = JSON.parse(window.sessionStorage.getItem('releaseDate'));
       }
     },
 
     async fetchStats() {
       const graphStats = 'https://kg-hub.berkeleybop.io/merged_graph_stats.yaml';
       const statsYaml = await axios.get(graphStats);
+
+      // get release date from headers
+      if ('last-modified' in statsYaml.headers) {
+        const lastModified = statsYaml.headers['last-modified'];
+        this.releaseDate = new Date(lastModified).toDateString().slice(4);
+      }
 
       let statsData = null;
       try {

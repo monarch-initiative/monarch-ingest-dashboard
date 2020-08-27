@@ -1,9 +1,10 @@
 <template>
 
   <div id="sankey">
-    <h3>Subject Category, Edge, Object Category by Source</h3>
 
-    this is the sankey component
+    The sankey component goes here
+
+
   </div>
 
 </template>
@@ -23,7 +24,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  h3 {
-    padding-top: 20px;
-  }
+
 </style>
