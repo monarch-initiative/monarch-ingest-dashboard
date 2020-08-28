@@ -149,7 +149,7 @@ export default
     "font": {
       "size": 12
     },
-    "updatemenus": [
+    /* "updatemenus": [
       {
         "y": 1,
         "buttons": [
@@ -271,6 +271,6 @@ export default
           }
         ]
       }
-    ]
+    ] */
   }
 };
