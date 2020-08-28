@@ -42,10 +42,11 @@ export default {
 
       const nodeCatSub = this.stats.node_stats.node_categories.map((val) => `s#${val}`);
       const nodeCatObj = this.stats.node_stats.node_categories.map((val) => `o#${val}`);
+      const additional = ['s#unknown', 'o#unknown'];
 
       const allNodes = Array.from(
         new Set(
-          edgeSourceLeft.concat(edgeSourceRight, nodeCatSub, nodeCatObj)
+          edgeSourceLeft.concat(edgeSourceRight, nodeCatSub, nodeCatObj, additional)
         )
       ).sort();
 
@@ -75,6 +76,7 @@ export default {
         const triple = spo.split('-');
         let source = allNodes.indexOf(`s#${triple[0]}`);
         let target = allNodes.indexOf(`o#${triple[2]}`);
+
         const { count } = this.stats.edge_stats.count_by_spo[spo];
 
         /* if (triple[0] === 'biolink:OntologyClass' || triple[2] === 'biolink:OntologyClass') {
@@ -107,6 +109,14 @@ export default {
       sankeyConfig.data[0].node.label = sankeyConfig.data[0].node.label.map(
         (val) => val.replace(/^[lrso]#/, '')
       );
+
+      // link colors
+      const linkOpacity = '0.4';
+      // data['data'][0]['link']['color'] = [data['data'][0]['node']['color'][src].replace("0.8", str(opacity)) for src in data['data'][0]['link']['source']]
+      // eslint-disable-next-line array-callback-return
+      sankeyConfig.data[0].link.color = sankeyConfig.data[0].link.source.map((val) => {
+        return sankeyConfig.data[0].node.color[val].replace('0.8', linkOpacity);
+      });
 
       Plotly.newPlot('sankey-diagram', sankeyConfig);
     }
@@ -141,7 +151,7 @@ export default {
   }
 
   .card-body {
-    padding: 0 1.25rem 0 1.25rem !important;
+    padding: 0 1.25rem 0 0 !important;
   }
 
 </style>
