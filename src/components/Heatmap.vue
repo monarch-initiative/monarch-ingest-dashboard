@@ -73,12 +73,14 @@ export default {
           tickfont: {
             size: 13
           },
+          showgrid: false
         },
         yaxis: {
           // title: 'Source'
           tickfont: {
             size: 13
           },
+          showgrid: false
         },
       };
 
