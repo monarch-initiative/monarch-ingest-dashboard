@@ -112,12 +112,11 @@ export default {
 
       // link colors
       const linkOpacity = '0.4';
-      // data['data'][0]['link']['color'] = [data['data'][0]['node']['color'][src].replace("0.8", str(opacity)) for src in data['data'][0]['link']['source']]
-      // eslint-disable-next-line array-callback-return
       sankeyConfig.data[0].link.color = sankeyConfig.data[0].link.source.map((val) => {
-        return sankeyConfig.data[0].node.color[val].replace('0.8', linkOpacity);
+        if (sankeyConfig.data[0].node.color[val] != null) {
+          return sankeyConfig.data[0].node.color[val].replace('0.8', linkOpacity);
+        }
       });
-
       Plotly.newPlot('sankey-diagram', sankeyConfig);
     }
   }
