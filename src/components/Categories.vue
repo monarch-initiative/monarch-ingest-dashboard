@@ -7,7 +7,7 @@
       <b-card class="card-shadow first-card" header-tag="header" align="center">
         <template v-slot:header>
           <div class="card-title graph-title">
-            Node Categories
+            Node Categories (Log Scale)
           </div>
         </template>
         <div id="node-categories" class="chart"></div>
@@ -16,7 +16,7 @@
       <b-card class="card-shadow" header-tag="header" align="center">
         <template v-slot:header>
           <div class="card-title graph-title">
-            Edge Categories (Top 20, Log Scale)
+            Edge Categories (Log Scale)
           </div>
         </template>
         <div id="edge-categories" class="chart"></div>
@@ -78,8 +78,8 @@ export default {
         return (a[1] < b[1]) ? -1 : 1;
       });
 
-      const labels = data.map((val) => val[0]).slice(-20);
-      const counts = data.map((val) => val[1]).slice(-20);
+      const labels = data.map((val) => val[0]);
+      const counts = data.map((val) => val[1]);
 
       const zeros = labels.map(() => 0);
 
@@ -166,8 +166,10 @@ export default {
       ];
 
       layout.xaxis = {
-        range: [0, Math.max(...counts)],
+        type: 'log',
         linewidth: 1,
+        showline: true,
+        range: [0, Math.log10(Math.max(...counts))]
       };
 
       Plotly.newPlot('node-categories', initData, layout);
