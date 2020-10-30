@@ -5,10 +5,6 @@
     <b-navbar-brand to="/">KG COVID-19 Dashboard</b-navbar-brand>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item to="/about">About</b-nav-item>
-      </b-navbar-nav>
-
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
 
