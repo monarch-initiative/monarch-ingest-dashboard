@@ -19,30 +19,6 @@
 
         <b-card-group class="overview-cards" deck>
 
-          <b-card class="card-shadow border-left-primary" align="left">
-            <b-row align-v="center">
-              <b-col cols="9">
-                <b-card-text>
-                  <div class="card-title node-title">
-                    Predicates
-                  </div>
-                  <div class="overview-text">
-                    Count: {{predicateCount}}
-                    <br>
-                    Predicates: {{predicateCategories}}
-                  </div>
-                </b-card-text>
-              </b-col>
-              <b-col>
-                <font-awesome-icon
-                  :icon="['fas', 'virus']"
-                  :style="{ color: 'grey' }"
-                  size="2x"
-                />
-              </b-col>
-            </b-row>
-          </b-card>
-
         </b-card-group>
       </div>
 
@@ -105,7 +81,7 @@ export default {
 
     async fetchStats() {
       const graphStats = 'https://kg-hub.berkeleybop.io/kg-covid-19/current/stats/merged_graph_stats.yaml'
-      const predicateStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates_with_teams.yaml'
+      const predicateStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json'
       const statsYaml = await axios.get(graphStats);
 
       // get release date from headers
