@@ -10,6 +10,7 @@ import App from './App.vue';
 import router from './router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import JwPagination from 'jw-vue-pagination';
 
 library.add(faHome);
 library.add(faGithub);
@@ -25,7 +26,7 @@ library.add(faCalendarDay);
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
-
+Vue.component('jw-pagination', JwPagination);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 new Vue({

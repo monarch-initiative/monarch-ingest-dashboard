@@ -1,7 +1,9 @@
 <template>
   <div id="predicate_table">
+
     <b-table :items="predicateData" :per-page="perPage" :current-page="currentPage" sticky-header head-variant="light"></b-table>
     <b-pagination v-model="currentPage" :total-rows="predicateData.length" :per-page="perPage"></b-pagination>
+
   </div>
 </template>
 
@@ -19,35 +21,29 @@ export default {
     },
   },
   data() {
-
       return {
       predicateData: [],
       currentPage: 1,
-      perPage: 50,
+      perPage: 10,
       items: [
-        { key: "subject" },
-        { key: "object" },
-        { key: "predicate" },
-        { key: "team" }
+        { key: "subject", label:"Subject" },
+        { key: "object", label:"Object" },
+        { key: "predicate", label:"predicate" },
+        { key: "team", label:"team" }
       ]
     };
   },
-  created() {
+  mounted() {
     this.getData();
   },
 
-  computed: {
-      rows() {
-        return this.items.length
-      }
-    },
-
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json").then(resp => {
-        this.predicateData = resp.data;
-      });
-    },
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
+        .then(response => {
+            this.predicateData = response.data;
+      })
+    }
   }
 };
 
@@ -56,40 +52,7 @@ export default {
 <style lang="scss" scoped>
   @import "~@/style/variables";
 
-  h3 {
-    padding-top: 20px;
-  }
-
-  .card {
-    min-width: 400px !important;
-  }
-
-  .chart {
-    margin: auto;
-    width: 100%;
-  }
-
-  .chart-cards {
-    padding: 50px 80px;
-    margin-right: 0 !important;
-  }
-
-  .first-card {
-    margin-right: 100px !important;
-  }
-
-  .graph-title {
-    color: #15556A;
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 0 !important;
-  }
-
-  .card-body {
-    padding: 0 1.25rem 1.25rem 1.25rem !important;
-  }
-
-   #predicate_table {
+  #predicate_table {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
