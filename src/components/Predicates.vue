@@ -10,6 +10,7 @@
       </template>
       <b-table id="predicate-table"
                     :items="predicateData"
+                    :fields="items"
                     :per-page="perPage"
                     :current-page="currentPage"
                     :sort-by.sync="sortBy"
