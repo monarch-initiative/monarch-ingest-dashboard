@@ -1,9 +1,30 @@
 <template>
 
   <div id='predicate-table'>
-      <b-table id="predicate-table" :items="predicateData" :per-page="perPage" :current-page="currentPage"
-                   small head-variant="light"> </b-table>
+
+   <b-card class="card-shadow heatmap-card" header-tag="header" align="left">
+      <template v-slot:header>
+        <div class="card-title graph-title">
+          Predicates (in use), Missing From Biolink-model
+        </div>
+      </template>
+      <b-table id="predicate-table"
+                    :items="predicateData"
+                    :per-page="perPage"
+                    :current-page="currentPage"
+                    :sort-by.sync="sortBy"
+                    :sort-desc.sync="sortDesc"
+                    sort-icon-right
+                    responsive
+                    head-variant="light">
+        </b-table>
       <b-pagination v-model="currentPage" :total-rows="totalItems" :per-page="perPage"/>
+      <div>
+        Sorting By: <b>{{ sortBy }}</b>, Sort Direction:
+        <b>{{ sortDesc ? 'descending' : 'ascending' }}</b>
+      </div>
+      <p class="mt-3">Current Page: {{ currentPage }}</p>
+   </b-card>
   </div>
 
 </template>
@@ -16,15 +37,17 @@ export default {
   name: 'Predicates',
   data() {
       return {
+      sortBy: 'subject',
+      sortDesc: false,
       predicateData: [],
       items: [
-        { key: "subject", label:"Subject" },
-        { key: "object", label:"Object" },
-        { key: "predicate", label:"predicate" },
-        { key: "team", label:"team" }
+        { key: "subject", label:"Subject", sortable: true },
+        { key: "object", label:"Object", sortable: true },
+        { key: "predicate", label:"predicate", sortable: true },
+        { key: "team", label:"team", sortable: true }
       ],
       currentPage: 1,
-      perPage: 10
+      perPage: 50
     };
   },
   mounted() {
@@ -33,7 +56,7 @@ export default {
 
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details_test.json")
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
         .then(response => {
             this.predicateData = response.data;
             this.totalItems = response.data.length
@@ -47,14 +70,28 @@ export default {
 <style lang="scss" scoped>
   @import "~@/style/variables";
 
-  #predicate-table {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-    margin-top: 60px;
-    margin-left: 15px;
-    margin-right: 15px;
+  .chart {
+    margin: 0 auto;
+    width: 90%;
   }
 
+  .heatmap-card {
+    margin: 20px auto;
+    width: 60%;
+  }
+
+  .card {
+    min-width: 1000px !important;
+  }
+
+  .graph-title {
+    color: #15556A;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+  }
+
+  .card-body {
+    padding: 0 1.25rem 0 1.25rem !important;
+  }
 </style>

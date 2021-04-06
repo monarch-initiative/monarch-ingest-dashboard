@@ -7,13 +7,6 @@
       <b-nav class="side-nav-item">
 
         <li>
-          <b-nav-item to="#overview">
-            <font-awesome-icon :icon="['fas', 'chart-pie']"/>
-            Overview
-          </b-nav-item>
-        </li>
-
-        <li>
           <b-nav-item to="#predicates">
             <font-awesome-icon :icon="['fas', 'chart-bar']"/>
             Predicates

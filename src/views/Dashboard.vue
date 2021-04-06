@@ -15,13 +15,6 @@
 
     <template v-if="statsFetched">
 
-      <div id="overview">
-
-        <b-card-group class="overview-cards" deck>
-
-        </b-card-group>
-      </div>
-
       <Predicates :stats="stats"/>
 
     </template>
@@ -113,16 +106,6 @@ export default {
   }
   .dashboard {
     padding-left: $sidebar-width;
-  }
-
-  .overview-cards {
-    padding: 30px 10px 0 40px;
-    width: 100%;
-  }
-
-  .overview-text {
-    font-size: 15px;
-    font-weight: bold;
   }
 
   .border-left-primary {
