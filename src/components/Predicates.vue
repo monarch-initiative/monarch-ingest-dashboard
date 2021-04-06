@@ -1,11 +1,11 @@
 <template>
 
-  <div id="predicate_table">
-
-    <b-table :items="predicateData" :per-page="0" :current-page="currentPage" head-variant="light"></b-table>
-    <b-pagination v-model="currentPage" :total-rows="totalItems" :per-page="perPage"></b-pagination>
-
+  <div id='predicate-table'>
+      <b-table id="predicate-table" :items="predicateData" :per-page="perPage" :current-page="currentPage"
+                   small head-variant="light"> </b-table>
+      <b-pagination v-model="currentPage" :total-rows="totalItems" :per-page="perPage"/>
   </div>
+
 </template>
 
 <script>
@@ -23,9 +23,8 @@ export default {
         { key: "predicate", label:"predicate" },
         { key: "team", label:"team" }
       ],
-      currentPage: 0,
-      perPage: 2,
-      totalItems: 0
+      currentPage: 1,
+      perPage: 10
     };
   },
   mounted() {
@@ -48,7 +47,7 @@ export default {
 <style lang="scss" scoped>
   @import "~@/style/variables";
 
-  #predicate_table {
+  #predicate-table {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
