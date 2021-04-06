@@ -4,22 +4,13 @@
 
     <b-card-group class="chart-cards" deck>
 
-      <b-card class="card-shadow first-card" header-tag="header" align="center">
-        <template v-slot:header>
-          <div class="card-title graph-title">
-            Node Categories (Log Scale)
-          </div>
-        </template>
-        <div id="node-categories" class="chart"></div>
-      </b-card>
-
       <b-card class="card-shadow" header-tag="header" align="center">
         <template v-slot:header>
-          <div class="card-title graph-title">
-            Edge Categories (Log Scale)
-          </div>
+            <div>
+                <b-table :items="posts" :fields="fields">
+                </b-table>
+            </div>
         </template>
-        <div id="edge-categories" class="chart"></div>
       </b-card>
 
     </b-card-group>
@@ -31,20 +22,43 @@
 <script>
 
 import Plotly from 'plotly.js-dist';
+import axios from 'axios';
 
 export default {
-  name: 'Categories',
+  name: 'Predicates',
   props: {
     stats: {
       type: Object,
       required: true,
     },
   },
+  data() {
+      return {
+      posts: [],
+      fields: [
+        { key: "predicate" },
+        { key: "teams" }
+      ]
+    };
+  },
+  created() {
+    this.getPosts();
+  },
+
   mounted() {
     this.getEdgeChart();
-    this.getNodeChart();
+    this.getpredicateChart();
+    axios
+      .get('https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates_with_teams.json')
+      .then(response => (this.predicates_grouped = response))
   },
   methods: {
+    getPosts() {
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates_with_teams.json").then(resp => {
+        this.posts = resp.data;
+      });
+    },
+
     getEdgeChart() {
       const layout = {
         height: 450,
@@ -59,6 +73,7 @@ export default {
           tickcolor: 'rgba(0,0,0,0)'
         },
       };
+
 
       // Get data from this.stats
       const data = Object.keys(this.stats.edge_stats.count_by_edge_label).map((cat) => {
@@ -102,24 +117,8 @@ export default {
         range: [0, Math.log10(Math.max(...counts))]
       };
 
-      Plotly.newPlot('edge-categories', initData, layout);
-      Plotly.animate('edge-categories', {
-        data: [{
-          x: counts
-        }]
-      }, {
-        transition: {
-          duration: 1000,
-          easing: 'cubic-in-out'
-
-        },
-        frame: {
-          duration: 1000,
-          redraw: false
-        }
-      });
     },
-    getNodeChart() {
+    getpredicateChart() {
       const layout = {
         height: 450,
         width: 500,
@@ -171,23 +170,6 @@ export default {
         showline: true,
         range: [0, Math.log10(Math.max(...counts))]
       };
-
-      Plotly.newPlot('node-categories', initData, layout);
-      Plotly.animate('node-categories', {
-        data: [{
-          x: counts
-        }]
-      }, {
-        transition: {
-          duration: 1000,
-          easing: 'cubic-in-out'
-
-        },
-        frame: {
-          duration: 1000,
-          redraw: false
-        }
-      });
     }
   }
 };

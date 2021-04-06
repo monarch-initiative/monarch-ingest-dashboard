@@ -14,23 +14,9 @@
         </li>
 
         <li>
-          <b-nav-item to="#categories">
+          <b-nav-item to="#predicates">
             <font-awesome-icon :icon="['fas', 'chart-bar']"/>
-            Categories
-          </b-nav-item>
-        </li>
-
-        <li>
-          <b-nav-item to="#heatmap">
-            <font-awesome-icon :icon="['fas', 'fire']"/>
-            Sources
-          </b-nav-item>
-        </li>
-
-        <li>
-          <b-nav-item to="#sankey">
-            <font-awesome-icon :icon="['fas', 'hamburger']"/>
-            Flow
+            Predicates
           </b-nav-item>
         </li>
 

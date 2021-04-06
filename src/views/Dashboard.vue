@@ -24,12 +24,12 @@
               <b-col cols="9">
                 <b-card-text>
                   <div class="card-title node-title">
-                    Nodes
+                    Predicates
                   </div>
                   <div class="overview-text">
-                    Count: {{nodeCount}}
+                    Count: {{predicateCount}}
                     <br>
-                    Categories: {{nodeCategories}}
+                    Predicates: {{predicateCategories}}
                   </div>
                 </b-card-text>
               </b-col>
@@ -43,82 +43,10 @@
             </b-row>
           </b-card>
 
-          <b-card class="card-shadow border-left-info" align="left">
-            <b-row align-v="center">
-              <b-col cols="9">
-                <b-card-text>
-                  <div class="card-title edge-title">
-                    Edges
-                  </div>
-                  <div class="overview-text">
-                    Count: {{edgeCount}}
-                    <br>
-                    Categories: {{edgeCategories}}
-                  </div>
-                </b-card-text>
-              </b-col>
-              <b-col>
-                <font-awesome-icon
-                  :icon="['fas', 'people-arrows']"
-                  :style="{ color: 'grey' }"
-                  size="2x"
-                />
-              </b-col>
-            </b-row>
-          </b-card>
-
-          <b-card class="card-shadow border-left-success" align="left">
-            <b-row align-v="center">
-              <b-col cols="9">
-                <b-card-text>
-                  <div class="card-title source-title">
-                    Sources
-                  </div>
-                  <div class="overview-text">
-                    {{sourceCount}}
-                    <br><br>
-                  </div>
-                </b-card-text>
-              </b-col>
-              <b-col>
-                <font-awesome-icon
-                  :icon="['fas', 'database']"
-                  :style="{ color: 'grey' }"
-                  size="2x"
-                />
-              </b-col>
-            </b-row>
-          </b-card>
-
-          <b-card class="card-shadow border-left-warning" align="left">
-            <b-row align-v="center">
-              <b-col cols="9">
-                <b-card-text>
-                  <div class="card-title date-title">
-                    Release
-                  </div>
-                  <div class="overview-text">
-                    {{releaseDate}}
-                    <br><br>
-                  </div>
-                </b-card-text>
-              </b-col>
-              <b-col>
-                <font-awesome-icon
-                  :icon="['fas', 'calendar-day']"
-                  :style="{ color: 'grey' }"
-                  size="2x"
-                />
-              </b-col>
-            </b-row>
-          </b-card>
-
         </b-card-group>
       </div>
 
-      <Categories :stats="stats"/>
-      <Heatmap :stats="stats"/>
-      <Sankey :stats="stats"/>
+      <Predicates :stats="stats"/>
 
     </template>
 
@@ -127,9 +55,7 @@
 
 <script>
 // @ is an alias to /src
-import Categories from '@/components/Categories.vue';
-import Sankey from '@/components/Sankey.vue';
-import Heatmap from '@/components/Heatmap.vue';
+import Predicates from '@/components/Predicates.vue';
 import Sidebar from '@/components/Sidebar.vue';
 
 import yaml from 'js-yaml';
@@ -138,21 +64,15 @@ import axios from 'axios';
 export default {
   name: 'Home',
   components: {
-    Categories,
-    Sankey,
-    Heatmap,
+    Predicates,
     Sidebar
   },
   data() {
     return {
       stats: null,
       statsFetched: false,
-      nodeCategories: null,
-      nodeCount: null,
-      edgeCategories: null,
-      edgeCount: null,
-      sourceCount: null,
-      releaseDate: '9/01/2020', // TODO
+      predicateCategories: null,
+      predicateCount: null,
     };
   },
   async mounted() {
@@ -164,11 +84,8 @@ export default {
     await this.getStats();
     this.statsFetched = true;
 
-    this.nodeCount = this.stats.node_stats.total_nodes.toLocaleString();
-    this.nodeCategories = this.stats.node_stats.node_categories.length.toLocaleString();
-    this.edgeCount = this.stats.edge_stats.total_edges.toLocaleString();
-    this.edgeCategories = this.stats.edge_stats.edge_labels.length.toLocaleString();
-    this.sourceCount = this.stats.edge_stats.provided_by.length.toLocaleString();
+    this.predicateCount = this.stats.node_stats.total_nodes.toLocaleString();
+    this.predicateCategories = this.stats.node_stats.node_categories.length.toLocaleString();
   },
 
   methods: {
@@ -188,6 +105,7 @@ export default {
 
     async fetchStats() {
       const graphStats = 'https://kg-hub.berkeleybop.io/kg-covid-19/current/stats/merged_graph_stats.yaml'
+      const predicateStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates_with_teams.yaml'
       const statsYaml = await axios.get(graphStats);
 
       // get release date from headers
@@ -255,10 +173,6 @@ export default {
 
   .node-title {
     color: theme-color("primary");
-  }
-
-  .edge-title {
-    color: theme-color("info");
   }
 
   .source-title {
