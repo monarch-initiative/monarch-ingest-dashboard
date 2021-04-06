@@ -10,6 +10,7 @@
       </template>
       <b-table id="predicate-table"
                     :items="predicateData"
+                    :filter="filtered"
                     :fields="items"
                     :per-page="perPage"
                     :current-page="currentPage"
@@ -18,6 +19,11 @@
                     sort-icon-right
                     responsive
                     head-variant="light">
+          <template slot="top-row" slot-scope="{ fields }">
+            <td v-for="field in fields" :key="field.key">
+                <input v-model="filters[field.key]" :placeholder="field.label">
+             </td>
+          </template>
         </b-table>
       <b-pagination v-model="currentPage" :total-rows="totalItems" :per-page="perPage"/>
       <div>
@@ -41,11 +47,17 @@ export default {
       sortBy: 'subject',
       sortDesc: false,
       predicateData: [],
+      filters: {
+        subject: '',
+        predicate: '',
+        object: '',
+        team: ''
+      },
       items: [
         { key: "subject", label:"Subject", sortable: true },
         { key: "object", label:"Object", sortable: true },
-        { key: "predicate", label:"predicate", sortable: true },
-        { key: "team", label:"team", sortable: true }
+        { key: "predicate", label:"Predicate", sortable: true },
+        { key: "team", label:"Team", sortable: true }
       ],
       currentPage: 1,
       perPage: 50
@@ -54,7 +66,23 @@ export default {
   mounted() {
     this.getData();
   },
-
+  computed: {
+    filtered() {
+      const filtered = this.items.filter(item => {
+        return Object.keys(this.filters).every(key =>
+          String(item[key]).includes(this.filters[key])
+        );
+      });
+      return filtered.length > 0
+        ? filtered
+        : [
+            Object.keys(this.[0]).reduce(function(obj, value) {
+              obj[value] = '';
+              return obj;
+            }, {})
+          ];
+    }
+  },
   methods: {
     getData() {
       axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
