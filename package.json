@@ -24,7 +24,8 @@
     "vmark": "^1.2.0",
     "vmark-loader": "^1.0.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vuejs-smart-table": "0.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

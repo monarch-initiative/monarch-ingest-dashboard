@@ -1,36 +1,31 @@
 <template>
+
   <div id="predicate_table">
 
-    <b-table :items="predicateData" :per-page="perPage" :current-page="currentPage" sticky-header head-variant="light"></b-table>
-    <b-pagination v-model="currentPage" :total-rows="predicateData.length" :per-page="perPage"></b-pagination>
+    <b-table :items="predicateData" :per-page="0" :current-page="currentPage" head-variant="light"></b-table>
+    <b-pagination v-model="currentPage" :total-rows="totalItems" :per-page="perPage"></b-pagination>
 
   </div>
 </template>
 
 <script>
 
-import Plotly from 'plotly.js-dist';
 import axios from 'axios';
 
 export default {
   name: 'Predicates',
-  props: {
-    stats: {
-      type: Object,
-      required: true,
-    },
-  },
   data() {
       return {
       predicateData: [],
-      currentPage: 1,
-      perPage: 10,
       items: [
         { key: "subject", label:"Subject" },
         { key: "object", label:"Object" },
         { key: "predicate", label:"predicate" },
         { key: "team", label:"team" }
-      ]
+      ],
+      currentPage: 0,
+      perPage: 2,
+      totalItems: 0
     };
   },
   mounted() {
@@ -39,9 +34,10 @@ export default {
 
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details_test.json")
         .then(response => {
             this.predicateData = response.data;
+            this.totalItems = response.data.length
       })
     }
   }
