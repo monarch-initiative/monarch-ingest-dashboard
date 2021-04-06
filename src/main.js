@@ -26,7 +26,6 @@ library.add(faCalendarDay);
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
-Vue.use(SmartTable)
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 new Vue({

@@ -9,7 +9,7 @@
       <b-navbar-nav class="ml-auto">
 
         <b-nav-item
-          href="https://github.com/sierra-moxon/kg-covid-19-dashboard"
+          href="https://github.com/sierra-moxon/translator-testing-dashboard"
           target="_blank"
         >
           <font-awesome-icon :icon="['fab', 'github']"/>
