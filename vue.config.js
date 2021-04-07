@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/kg-covid-19-dashboard/'
+    ? '/translator-testing-dashboard/'
     : '/',
   chainWebpack: (config) => {
     config.module
@@ -25,7 +25,7 @@ module.exports = {
       filename: 'index.html',
       // when using title option,
       // template title tag needs to be <title><%= htmlWebpackPlugin.options.title %></title>
-      title: 'KG COVID-19 Dashboard',
+      title: 'Translator Testing Dashboard',
       // chunks to include on this page, by default includes
       // extracted common chunks and vendor chunks.
       chunks: ['chunk-vendors', 'chunk-common', 'index']
