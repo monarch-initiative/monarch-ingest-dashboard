@@ -15,6 +15,7 @@
 
     <template v-if="statsFetched">
 
+      <Inverses :stats="stats"/>
       <Predicates :stats="stats"/>
 
     </template>
@@ -24,6 +25,7 @@
 
 <script>
 // @ is an alias to /src
+import Inverses from '@/components/Inverses.vue';
 import Predicates from '@/components/Predicates.vue';
 import Sidebar from '@/components/Sidebar.vue';
 import yaml from 'js-yaml';
@@ -31,6 +33,7 @@ import axios from 'axios';
 export default {
   name: 'Home',
   components: {
+    Inverses,
     Predicates,
     Sidebar
   },
