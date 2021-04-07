@@ -3,7 +3,6 @@
 
     <div class="sidebar-content">
 
-
       <b-nav class="side-nav-item">
 
         <li>
@@ -12,6 +11,61 @@
             Predicates
           </b-nav-item>
         </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/NCATSTranslator/Translator-All/wiki/Node-Normalizer"
+          target="_blank"
+        >
+          Node Normalizer
+        </b-nav-item>
+        </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/NCATSTranslator/Translator-All/wiki/Edge-Normalizer"
+          target="_blank"
+        >
+          Edge Normalizer
+        </b-nav-item>
+        </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/biolink/biolink-model-toolkit"
+          target="_blank"
+        >
+          Biolink Model Toolkit
+        </b-nav-item>
+        </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/biolink/KGX"
+          target="_blank"
+        >
+          Knowledge Graph Exchange Format (KGX)
+        </b-nav-item>
+        </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/TranslatorSRI/BLComplianceService"
+          target="_blank"
+        >
+          Biolink Compliance Service
+        </b-nav-item>
+        </li>
+
+        <li>
+        <b-nav-item
+          href="https://github.com/TranslatorSRI/bl_lookup"
+          target="_blank"
+        >
+          Biolink Model Lookup Service
+        </b-nav-item>
+        </li>
+
 
       </b-nav>
 
