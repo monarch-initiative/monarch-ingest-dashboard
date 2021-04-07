@@ -13,6 +13,13 @@
         </li>
 
         <li>
+          <b-nav-item to="#predicates">
+            <font-awesome-icon :icon="['fas', 'chart-bar']"/>
+            Inverses
+          </b-nav-item>
+        </li>
+
+        <li>
         <b-nav-item
           href="https://github.com/NCATSTranslator/Translator-All/wiki/Node-Normalizer"
           target="_blank"
