@@ -45,16 +45,11 @@ export default {
     };
   },
   async mounted() {
-    // no idea why but this changes the transition speed from different routes
-    // comment out and go from 'About' to the homepage to determine what you
-    // like better
     await new Promise((r) => setTimeout(r, 0));
 
     await this.getStats();
     this.statsFetched = true;
 
-    this.predicateCount = this.stats.node_stats.total_nodes.toLocaleString();
-    this.predicateCategories = this.stats.node_stats.node_categories.length.toLocaleString();
   },
 
   methods: {
@@ -71,28 +66,7 @@ export default {
         this.releaseDate = JSON.parse(window.sessionStorage.getItem('releaseDate'));
       }
     },
-
-    async fetchStats() {
-      const graphStats = 'https://kg-hub.berkeleybop.io/kg-covid-19/current/stats/merged_graph_stats.yaml'
-      const predicateStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json'
-      const statsYaml = await axios.get(graphStats);
-
-      // get release date from headers
-      if ('last-modified' in statsYaml.headers) {
-        const lastModified = statsYaml.headers['last-modified'];
-        this.releaseDate = new Date(lastModified).toDateString().slice(4);
-      }
-
-      let statsData = null;
-      try {
-        statsData = await yaml.safeLoad(statsYaml.data, 'utf8');
-      } catch (e) {
-        // console.log('stats yaml.safeLoad ERROR', e);
-      }
-      return statsData;
-    }
-
-  },
+  }
 };
 
 </script>
