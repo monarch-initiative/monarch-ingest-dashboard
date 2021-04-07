@@ -9,6 +9,13 @@
       <b-navbar-nav class="ml-auto">
 
         <b-nav-item
+          href="https://biolink.github.io/biolink-model/docs/"
+          target="_blank"
+        >
+          <font-awesome-icon :icon="['fas', 'home']"/>
+        </b-nav-item>
+
+        <b-nav-item
           href="https://github.com/sierra-moxon/translator-testing-dashboard"
           target="_blank"
         >

@@ -3,7 +3,7 @@ import BootstrapVue from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faChartPie, faChartBar,
   faHamburger, faFire, faHandSparkles, faVirus,
-  faPeopleArrows, faDatabase, faCalendarDay } from '@fortawesome/free-solid-svg-icons';
+  faPeopleArrows, faDatabase, faCalendarDay} from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import App from './App.vue';

@@ -60,7 +60,8 @@ export default {
         { key: "team", label:"Team", sortable: true }
       ],
       currentPage: 1,
-      perPage: 50
+      perPage: 50,
+      totalItems: ''
     };
   },
   mounted() {
