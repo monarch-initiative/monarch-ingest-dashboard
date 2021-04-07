@@ -6,9 +6,9 @@
       <b-nav class="side-nav-item">
 
         <li>
-          <b-nav-item to="#predicates">
+          <b-nav-item to="#inverses">
             <font-awesome-icon :icon="['fas', 'chart-bar']"/>
-            Predicates
+            Inverses
           </b-nav-item>
         </li>
 

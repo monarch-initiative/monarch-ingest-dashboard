@@ -1,14 +1,14 @@
 <template>
 
-  <div id='predicate-table'>
+  <div id='inverse-table'>
 
    <b-card class="card-shadow heatmap-card" header-tag="header" align="left">
       <template v-slot:header>
         <div class="card-title graph-title">
-          Predicates (in use), Missing from Biolink-model
+          Predicates (in use), Missing Inverses
         </div>
       </template>
-      <b-table id="predicate-table"
+      <b-table id="inverse-table"
                     :items="predicateData"
                     :filter="filtered"
                     :fields="items"
@@ -41,7 +41,7 @@
 import axios from 'axios';
 
 export default {
-  name: 'Predicates',
+  name: 'Inverses',
   data() {
       return {
       sortBy: 'subject',
@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates.json")
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
         .then(response => {
             this.predicateData = response.data;
             this.totalItems = response.data.length
