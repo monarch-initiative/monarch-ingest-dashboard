@@ -15,7 +15,7 @@
         <li>
           <b-nav-item to="#predicates">
             <font-awesome-icon :icon="['fas', 'chart-bar']"/>
-            Inverses
+            Predicates
           </b-nav-item>
         </li>
 
