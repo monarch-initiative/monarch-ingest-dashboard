@@ -84,9 +84,11 @@ export default {
           ];
     }
   },
+
+  
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json")
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_inverse_details.json")
         .then(response => {
             this.predicateData = response.data;
             this.totalItems = response.data.length
