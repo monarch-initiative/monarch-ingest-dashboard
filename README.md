@@ -1,6 +1,6 @@
-### KG COVID-19 Dashboard
+### Translator Testing Dashboard
 
-A dashboard for viewing statistics on the KG COVID-19 database
+A dashboard for viewing reports generated from the Translator Testing repository/
 
 ## Project setup
 
