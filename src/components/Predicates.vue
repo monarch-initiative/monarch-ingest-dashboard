@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     getData() {
-      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicates.json")
+      axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicate_details.json")
         .then(response => {
             this.predicateData = response.data;
             this.totalItems = response.data.length

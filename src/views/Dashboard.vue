@@ -65,7 +65,7 @@ export default {
       }
     },
     async fetchStats() {
-      const graphStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_details.json'
+      const graphStats = 'https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_predicate_details.json'
       const statsYaml = await axios.get(graphStats);
       let statsData = null;
       try {
