@@ -85,7 +85,7 @@ export default {
     }
   },
 
-  
+
   methods: {
     getData() {
       axios.get("https://raw.githubusercontent.com/NCATSTranslator/testing/bug_fix/onehop/missing_inverse_details.json")
