@@ -2,7 +2,7 @@
 
   <b-navbar id="dash-navbar" class="fixed-top" type="dark" variant="info" fixed="true" toggleable="sm">
 
-    <b-navbar-brand to="/">Translator Testing Dashboard</b-navbar-brand>
+    <b-navbar-brand to="/">Translator Testing Dashboard Demo</b-navbar-brand>
 
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
@@ -16,7 +16,7 @@
         </b-nav-item>
 
         <b-nav-item
-          href="https://github.com/sierra-moxon/translator-testing-dashboard"
+          href="https://github.com/TranslatorSRI/translator-testing-dashboard-demo"
           target="_blank"
         >
           <font-awesome-icon :icon="['fab', 'github']"/>

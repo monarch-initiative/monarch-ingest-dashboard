@@ -6,20 +6,21 @@
       <b-nav class="side-nav-item">
 
         <li>
-          <b-nav-item to="#inverses">
-            <font-awesome-icon :icon="['fas', 'chart-bar']"/>
-            Inverses
-          </b-nav-item>
-        </li>
-
-        <li>
-          <b-nav-item to="#predicates">
+          <b-nav-item to="#predicate-table">
             <font-awesome-icon :icon="['fas', 'chart-bar']"/>
             Predicates
           </b-nav-item>
         </li>
 
         <li>
+          <b-nav-item to="#inverse-table">
+            <font-awesome-icon :icon="['fas', 'chart-bar']"/>
+            Inverses
+          </b-nav-item>
+        </li>
+
+         <b-nav class="side-nav-item">
+          <li>
         <b-nav-item
           href="https://github.com/NCATSTranslator/Translator-All/wiki/Node-Normalizer"
           target="_blank"
@@ -72,8 +73,7 @@
           Biolink Model Lookup Service
         </b-nav-item>
         </li>
-
-
+      </b-nav>
       </b-nav>
 
     </div>

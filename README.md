@@ -1,4 +1,4 @@
-### Translator Testing Dashboard
+### Translator Testing Dashboard Demo
 
 A dashboard for viewing reports generated from the Translator Testing repository/
 
