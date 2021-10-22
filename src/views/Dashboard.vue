@@ -187,7 +187,7 @@ export default {
     },
 
     async fetchStats() {
-      const graphStats = 'https://kg-hub.berkeleybop.io/kg-covid-19/current/stats/merged_graph_stats.yaml'
+      const graphStats = 'https://storage.googleapis.com/monarch-ingest/merged_graph_stats.yaml';
       const statsYaml = await axios.get(graphStats);
 
       // get release date from headers

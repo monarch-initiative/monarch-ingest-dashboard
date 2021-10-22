@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/kg-covid-19-dashboard/'
+    ? '/monarch-ingest-dashboard/'
     : '/',
   chainWebpack: (config) => {
     config.module
