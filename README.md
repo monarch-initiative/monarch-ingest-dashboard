@@ -1,6 +1,6 @@
-### KG COVID-19 Dashboard
+### Monarch Ingest Dashboard
 
-A dashboard for viewing statistics on the KG COVID-19 database
+A dashboard for viewing statistics on the Monarch Ingest Graph
 
 ## Project setup
 
