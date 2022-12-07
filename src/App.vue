@@ -1,45 +1,34 @@
-<template>
-  <div id="app" class="page-wrapper">
+<script setup lang="ts">
+// This starter template is using Vue 3 <script setup> SFCs
+// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import HelloWorld from './components/HelloWorld.vue'
 
-    <navbar />
-
-    <router-view />
-
-  </div>
-</template>
-
-<script>
-
-import Navbar from '@/components/Navbar.vue';
-
-export default {
-  name: 'App',
-  components: {
-    Navbar
-  },
-};
-
+import { globalData } from './data';
 </script>
 
-<style lang="scss">
-@import "~@/style/variables";
+<template>
+  <div>
+    <a href="https://vitejs.dev" target="_blank">
+      <img src="/vite.svg" class="logo" alt="Vite logo" />
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    </a>
+    {{ globalData }}
+  </div>
+  <HelloWorld msg="Vite + Vue" />
+</template>
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-color: #f8f8fc;
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
 }
-
-#app.page-wrapper {
-  padding-top: $navbar-height;
-  min-height: 100vh;
-  min-width: 100%;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
-
-.card-shadow {
-  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
