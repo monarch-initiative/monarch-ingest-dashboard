@@ -1,4 +1,7 @@
 import { ref } from "vue";
+import YAML from "yaml";
+//const jsyaml = require('js-yaml');
+//const YAML = require('yaml')
 
 export const globalData = ref<string>("")
 
@@ -17,12 +20,15 @@ const files = ["https://data.monarchinitiative.org/monarch-kg-dev/latest/qc_repo
 async function fetchData(url = "") {
     const response = await fetch(url);
     const text = await response.text();
-    return text;
+//    const yaml = await jsyaml.load(text);
+    const yaml = await YAML.parseDocument(text);
+    console.log(yaml)
+    return yaml;
 }
 
 
 export async function fetchAllData() {
     const arrayofpromises = files.map(fetchData);
     const allresults = await Promise.all(arrayofpromises);
-    globalData.value = allresults[0];
+//    globalData.value = allresults[0];
 }
