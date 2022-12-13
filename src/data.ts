@@ -23,12 +23,12 @@ async function fetchData(url = "") {
 //    const yaml = await jsyaml.load(text);
     const yaml = await YAML.parseDocument(text);
     console.log(yaml)
-    return yaml;
+    return text;
 }
 
 
 export async function fetchAllData() {
     const arrayofpromises = files.map(fetchData);
     const allresults = await Promise.all(arrayofpromises);
-//    globalData.value = allresults[0];
+    globalData.value = allresults[0];
 }
